@@ -1,0 +1,75 @@
+{
+  "source": {
+    "product": "Qoder CN",
+    "version": "0.4.8",
+    "archive": "resources/app.asar",
+    "asset": "out/renderer/assets/qoderCnIdeLogo-D6M-8wQq.svg",
+    "bytes": 16670,
+    "sha256": "1ee11979146bb5cf0579d0c443ac031574140abf60bfa61681ab632a16a8b374",
+    "originalCopy": "source-evidence/brand/qoder-cn-ide-original.svg"
+  },
+  "geometry": {
+    "bounds": [
+      34.2002,
+      31.521733333333334,
+      171.799,
+      172.796
+    ],
+    "sourcePaths": [
+      {
+        "sha256": "e21e2e7e25fa83a01a7ded7717d7c789a8730746ca968b48087c81452be4f0ca",
+        "fill": "#2ADB5C",
+        "opacity": "1"
+      },
+      {
+        "sha256": "6d825b114f9d70e4e9c104645d1ce3a8e34fe0190b8351c5364b8a332bf73617",
+        "fill": "#2ADB5C",
+        "opacity": "0.5"
+      }
+    ],
+    "changes": "Path data unchanged; source icon background removed; uniform scale and optical placement."
+  },
+  "websiteIdentity": {
+    "name": "Qoder Design Kit",
+    "status": "unofficial design reference",
+    "composition": "Official CN mark with a newly arranged, outlined Qoder / DESIGN KIT wordmark.",
+    "font": "Instrument Sans Medium, SIL OFL 1.1",
+    "fontFile": "assets/fonts/instrument-sans-500.woff2",
+    "fontSha256": "9d3547da16d950d12a677c772a3ff9b69846e60e7dcd1b5efd540993f7286532",
+    "viewBox": [
+      0,
+      0,
+      144,
+      48
+    ],
+    "fontToolsVersion": "4.67.0"
+  },
+  "exports": [
+    {
+      "file": "assets/brand/qoder-mark.svg",
+      "bytes": 16749,
+      "sha256": "c3a7498eb6d948800eea4de461f08033a5ff41ce67064b4b0c3de846a2e0ff45"
+    },
+    {
+      "file": "assets/brand/qoder-design-kit.svg",
+      "bytes": 22320,
+      "sha256": "fd03d8c602275035bc3b96701abe3607adcb55e2949559959739191124f47429"
+    },
+    {
+      "file": "assets/brand/qoder-design-kit-dark.svg",
+      "bytes": 22320,
+      "sha256": "9294c7e7831862ba988abd80626d51d12d59a614cac6464b96a17e36d27a0f31"
+    },
+    {
+      "file": "assets/brand/qoder-design-kit-mono.svg",
+      "bytes": 22314,
+      "sha256": "dc1de7c062440ee15582a33d70746c1c70fc12b78be485c0aeeea932157390b7"
+    },
+    {
+      "file": "assets/favicon.svg",
+      "bytes": 16811,
+      "sha256": "a25007ec5673c4eb304c49e4f80ac2a6e7a9f3dff44984507ded00428df19712"
+    }
+  ],
+  "rights": "Qoder's mark remains the property of its rights holder; not covered by the font or icon licenses."
+}

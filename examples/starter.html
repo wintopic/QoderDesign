@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Atlas Workspace · Qoder 组件接入示例</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/tokens.css?v=4.3">
+  <link rel="stylesheet" href="../assets/css/components.css?v=5.1">
+  <link rel="stylesheet" href="starter.css">
+  <script src="../assets/js/qoder-icons.js" defer></script>
+  <script src="../assets/js/qoder-ui.js?v=4.4" defer></script>
+  <script src="starter.js?v=4.4" defer></script>
+</head>
+<body class="starter-body">
+  <a class="starter-skip" href="#main">跳到设置内容</a>
+  <header class="starter-titlebar">
+    <a class="starter-brand" href="../index.html"><svg class="q-icon" aria-hidden="true"><use href="#q-i-layers-intersect"></use></svg>Atlas Workspace</a>
+    <a class="starter-reference" href="../index.html#component-switch">查看组件参考 <svg class="q-icon" aria-hidden="true"><use href="#q-i-arrow-right"></use></svg></a>
+  </header>
+  <div class="starter-shell">
+    <aside class="starter-sidebar">
+      <div class="starter-workspace"><span class="q-avatar">A</span><div><strong>Atlas</strong><span>个人工作区</span></div></div>
+      <nav aria-label="工作区导航">
+        <a class="q-settings__nav-item" href="#overview"><svg class="q-icon" aria-hidden="true"><use href="#q-i-layout-dashboard"></use></svg>概览</a>
+        <a class="q-settings__nav-item" href="#workspaces"><svg class="q-icon" aria-hidden="true"><use href="#q-i-folder"></use></svg>工作区</a>
+        <a class="q-settings__nav-item" href="#preferences" aria-current="page"><svg class="q-icon" aria-hidden="true"><use href="#q-i-settings"></use></svg>设置</a>
+      </nav>
+      <div class="starter-sidebar__footer"><span class="starter-status-dot"></span>本地工作区</div>
+    </aside>
+    <main id="main" class="starter-main" tabindex="-1">
+      <div class="starter-content">
+        <header id="overview" class="starter-page-head">
+          <div><p class="starter-eyebrow">WORKSPACE / SETTINGS</p><h1>让工作台，适合你的习惯。</h1><p>管理项目、通知和显示偏好。</p></div>
+          <select class="q-input q-input--sm starter-theme" aria-label="界面主题" data-starter-theme>
+            <option value="light">默认亮色</option><option value="forest-light">森林亮色</option><option value="bee-light">蜜色亮色</option><option value="mint-light">薄荷亮色</option><option value="light-parchment">羊皮纸亮色</option><option value="forest-dark">森林暗色</option><option value="bee-dark">蜜色暗色</option><option value="mint-dark">薄荷暗色</option><option value="parchment-dark">羊皮纸暗色</option>
+          </select>
+        </header>
+        <form id="workspace-preferences">
+          <section id="workspaces" aria-labelledby="workspace-title">
+            <h2 class="starter-section-title" id="workspace-title">工作区</h2>
+            <div class="q-settings__group">
+              <div class="q-settings-row">
+                <div class="q-settings-row__body"><label class="q-settings-row__title" for="workspace-name">工作区名称</label><span class="q-settings-row__desc">在侧栏和最近项目中显示的名称。</span></div>
+                <div class="q-settings-row__control"><input class="q-input starter-name" id="workspace-name" name="workspaceName" value="Atlas Workspace" maxlength="80" required></div>
+              </div>
+              <div class="q-settings-row">
+                <div class="q-settings-row__body"><span class="q-settings-row__title" id="autosave-title">自动保存</span><span class="q-settings-row__desc" id="autosave-desc">编辑时自动保留项目草稿。</span></div>
+                <div class="q-settings-row__control"><button type="button" class="q-switch" role="switch" data-q-switch data-preference="autosave" aria-checked="true" aria-labelledby="autosave-title" aria-describedby="autosave-desc"><span class="q-switch__thumb" data-switch-thumb=""><span class="q-switch__visual" data-switch-visual="" aria-hidden="true"></span></span></button></div>
+              </div>
+            </div>
+          </section>
+          <section id="preferences" aria-labelledby="preferences-title">
+            <h2 class="starter-section-title" id="preferences-title">偏好</h2>
+            <div class="q-settings__group">
+              <div class="q-settings-row">
+                <div class="q-settings-row__body"><span class="q-settings-row__title" id="notifications-title">完成时通知</span><span class="q-settings-row__desc">任务完成后，在工作台内显示提醒。</span></div>
+                <div class="q-settings-row__control"><button type="button" class="q-switch" role="switch" data-q-switch data-preference="notifications" aria-checked="false" aria-labelledby="notifications-title"><span class="q-switch__thumb" data-switch-thumb=""><span class="q-switch__visual" data-switch-visual="" aria-hidden="true"></span></span></button></div>
+              </div>
+              <div class="q-settings-row">
+                <div class="q-settings-row__body"><span class="q-settings-row__title" id="compact-title">紧凑侧栏</span><span class="q-settings-row__desc">减少任务列表中的留白。</span></div>
+                <div class="q-settings-row__control"><button type="button" class="q-switch q-switch--sm" role="switch" data-q-switch data-preference="compact" aria-checked="true" aria-labelledby="compact-title"><span class="q-switch__thumb" data-switch-thumb=""><span class="q-switch__visual" data-switch-visual="" aria-hidden="true"></span></span></button></div>
+              </div>
+              <div class="q-settings-row">
+                <div class="q-settings-row__body"><span class="q-settings-row__title" id="policy-title">共享工作区</span><span class="q-settings-row__desc">由团队管理，当前账户不可修改。</span></div>
+                <div class="q-settings-row__control"><button type="button" class="q-switch q-switch--sm" role="switch" data-q-switch aria-checked="false" aria-labelledby="policy-title" disabled><span class="q-switch__thumb" data-switch-thumb=""><span class="q-switch__visual" data-switch-visual="" aria-hidden="true"></span></span></button></div>
+              </div>
+              <div class="q-settings-row">
+                <div class="q-settings-row__body"><span class="q-settings-row__title" id="width-title">内容宽度</span><span class="q-settings-row__desc">为对话和文档选择阅读宽度。</span></div>
+                <div class="q-settings-row__control starter-radio-group" role="radiogroup" aria-labelledby="width-title">
+                  <label class="q-radio"><input type="radio" name="contentWidth" value="standard" checked><span class="q-radio__box" aria-hidden="true"></span><span>标准</span></label>
+                  <label class="q-radio"><input type="radio" name="contentWidth" value="wide"><span class="q-radio__box" aria-hidden="true"></span><span>宽</span></label>
+                </div>
+              </div>
+              <div class="q-settings-row">
+                <div class="q-settings-row__body"><label class="q-settings-row__title" for="interface-scale">界面缩放</label><span class="q-settings-row__desc">调整文字与控件的显示比例。</span></div>
+                <div class="q-settings-row__control starter-slider" data-q-slider-field>
+                  <div class="q-slider" data-q-slider data-q-slider-unit="%"><div class="q-slider__track"><div class="q-slider__range"></div></div><input class="q-slider__input" id="interface-scale" type="range" name="interfaceScale" min="80" max="120" step="5" value="100"><div class="q-slider__thumb" aria-hidden="true"></div></div>
+                  <output class="q-slider-value" data-q-slider-value for="interface-scale">100%</output>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="starter-save-row"><p class="starter-save-status" role="status" data-starter-status>调整偏好后，点击保存。</p><button type="submit" class="q-btn q-btn--primary"><svg class="q-icon" aria-hidden="true"><use href="#q-i-check"></use></svg>保存设置</button></div>
+        </form>
+        <footer class="starter-notes"><span>Qoder Design Kit · 独立接入示例</span><a href="../INTEGRATION.md">集成指南</a><a href="../source-evidence/controls.json">源码依据</a></footer>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "product": "qoder-cn",
+    "version": "0.4.8",
+    "generatedAt": "2026-10-24T02:40:09+00:00",
+    "method": "Read-only ASAR extraction; byte offsets are UTF-8 offsets in the named assets.",
+    "scope": "Shared UI controls and their CSS tokens; no app data, account data or complete renderer included."
+  },
+  "assets": {
+    "out/renderer/assets/CMOdY8kL.js": {
+      "bytes": 3226252,
+      "sha256": "d2f7c51f48ac8be238d427bac8df4712b0e5ef50b64f01825ae6090e6b46fc66"
+    },
+    "out/renderer/assets/dataDirectoryProgress-BObUSxuS.css": {
+      "bytes": 192670,
+      "sha256": "8b1d3397203b4b474a9fae0fd707a1a2e376fab1dc3b1b4d3a31e85b24925915"
+    },
+    "out/renderer/assets/index-DT-bZ071.css": {
+      "bytes": 72759,
+      "sha256": "07d91ae33d087cea52a73d43f4e5f10fbf6013ac857f397c5c20dac202796cdc"
+    },
+    "out/renderer/assets/index-DohubooF.css": {
+      "bytes": 378992,
+      "sha256": "fc66ec5cdf63302bdff49278aac49a0a742db6f4ebacd73445eed7999b853568"
+    }
+  },
+  "themeCssAsset": "out/renderer/assets/index-DohubooF.css",
+  "tokenMap": {
+    "primary": "--q1c50a8",
+    "primary-border": "--qca1baf",
+    "primary-bg": "--qdf74ad",
+    "primary-active": "--q149cae",
+    "text": "--q0704b8",
+    "text-on-primary": "--q292341",
+    "bg-base": "--qb28b89",
+    "bg-container": "--q79944a",
+    "border": "--q015283",
+    "border-tertiary": "--qbf30b8",
+    "fill-secondary": "--q676eb9",
+    "switch-off-bg": "--q079bfd",
+    "switch-off-border": "--qace5a8",
+    "shadow-color-4": "--qd4450b"
+  },
+  "themes": {
+    "light": {
+      "primary": "#4b6f5a",
+      "primary-border": "#d5dbd8",
+      "primary-bg": "#f2f4f2",
+      "primary-active": "#3a5747",
+      "text": "#141414",
+      "text-on-primary": "#fdfdfd",
+      "bg-base": "#fff",
+      "bg-container": "#fff",
+      "border": "#bcbbba",
+      "border-tertiary": "#e6e6e6",
+      "fill-secondary": "#efefef",
+      "switch-off-bg": "#efefef",
+      "switch-off-border": "#efefef",
+      "shadow-color-4": "#00000014"
+    },
+    "forest-light": {
+      "primary": "#4b6f5a",
+      "primary-border": "#d5dbd8",
+      "primary-bg": "#f2f4f2",
+      "primary-active": "#3a5747",
+      "text": "#141414",
+      "text-on-primary": "#fdfdfd",
+      "bg-base": "#fff",
+      "bg-container": "#fff",
+      "border": "#bcbbba",
+      "border-tertiary": "#e6e6e6",
+      "fill-secondary": "#00000012",
+      "switch-off-bg": "#00000012",
+      "switch-off-border": "#00000012",
+      "shadow-color-4": "#00000014"
+    },
+    "bee-light": {
+      "primary": "#0d0d0d",
+      "primary-border": "#d5dbd8",
+      "primary-bg": "#f2f4f2",
+      "primary-active": "#3a5747",
+      "text": "#141414",
+      "text-on-primary": "#fdfdfd",
+      "bg-base": "#fff",
+      "bg-container": "#fff",
+      "border": "#bcbbba",
+      "border-tertiary": "#e6e6e6",
+      "fill-secondary": "#efefef",
+      "switch-off-bg": "#efefef",
+      "switch-off-border": "#efefef",
+      "shadow-color-4": "#00000014"
+    },
+    "mint-light": {
+      "primary": "#4fa98f",
+      "primary-border": "#a9d8c8",
+      "primary-bg": "#e6f5f0",
+      "primary-active": "#3f8f78",
+      "text": "#2f4b2d",
+      "text-on-primary": "#f7faf8",
+      "bg-base": "#fff",
+      "bg-container": "#fff",
+      "border": "#afcbc1",
+      "border-tertiary": "#e1eee9",
+      "fill-secondary": "#00000012",
+      "switch-off-bg": "#00000012",
+      "switch-off-border": "#00000012",
+      "shadow-color-4": "#00000014"
+    },
+    "light-parchment": {
+      "primary": "#c96442",
+      "primary-border": "#f2c7b6",
+      "primary-bg": "#f1f0ed",
+      "primary-active": "#a9432a",
+      "text": "#202116",
+      "text-on-primary": "#fff9f4",
+      "bg-base": "#fff",
+      "bg-container": "#fff",
+      "border": "#d4cfc6",
+      "border-tertiary": "#ede9e2",
+      "fill-secondary": "#e9e8e5",
+      "switch-off-bg": "#e9e8e5",
+      "switch-off-border": "#e9e8e5",
+      "shadow-color-4": "#00000014"
+    },
+    "forest-dark": {
+      "primary": "#4d9c61",
+      "primary-border": "#335942",
+      "primary-bg": "#14261c",
+      "primary-active": "#428955",
+      "text": "#d9dcd9",
+      "text-on-primary": "#080807",
+      "bg-base": "#222523",
+      "bg-container": "#191b1a",
+      "border": "#4b554d",
+      "border-tertiary": "#363c37",
+      "fill-secondary": "#2d332e",
+      "switch-off-bg": "color-mix(in srgb, #363d37 72%, white)",
+      "switch-off-border": "color-mix(in srgb, #363d37 72%, white)",
+      "shadow-color-4": "#00000014"
+    },
+    "bee-dark": {
+      "primary": "#e0c65c",
+      "primary-border": "#5a4d1f",
+      "primary-bg": "#2e2916",
+      "primary-active": "#e8d06e",
+      "text": "#f2f1e8",
+      "text-on-primary": "#171407",
+      "bg-base": "#0f100d",
+      "bg-container": "#12130f",
+      "border": "#47483f",
+      "border-tertiary": "#30322d",
+      "fill-secondary": "#2c2e28",
+      "switch-off-bg": "color-mix(in srgb, #363830 72%, white)",
+      "switch-off-border": "color-mix(in srgb, #363830 72%, white)",
+      "shadow-color-4": "#00000014"
+    },
+    "mint-dark": {
+      "primary": "#62c9a8",
+      "primary-border": "#285546",
+      "primary-bg": "#122a24",
+      "primary-active": "#76d9b9",
+      "text": "#eaf3ef",
+      "text-on-primary": "#07130f",
+      "bg-base": "#0a0f0d",
+      "bg-container": "#0e1411",
+      "border": "#394a42",
+      "border-tertiary": "#27332e",
+      "fill-secondary": "#232e29",
+      "switch-off-bg": "color-mix(in srgb, #2b3731 72%, white)",
+      "switch-off-border": "color-mix(in srgb, #2b3731 72%, white)",
+      "shadow-color-4": "#00000014"
+    },
+    "parchment-dark": {
+      "primary": "#e08a68",
+      "primary-border": "#704233",
+      "primary-bg": "#321f19",
+      "primary-active": "#e79576",
+      "text": "#f1ece5",
+      "text-on-primary": "#1b0e09",
+      "bg-base": "#12100e",
+      "bg-container": "#171512",
+      "border": "#4b433b",
+      "border-tertiary": "#352f2a",
+      "fill-secondary": "#302b26",
+      "switch-off-bg": "color-mix(in srgb, #3b352f 72%, white)",
+      "switch-off-border": "color-mix(in srgb, #3b352f 72%, white)",
+      "shadow-color-4": "#00000014"
+    }
+  },
+  "switch": {
+    "element": "button",
+    "type": "button",
+    "role": "switch",
+    "stateAttribute": "aria-checked",
+    "cornerShape": "round",
+    "borderWidth": 1,
+    "structure": [
+      "button.q-switch",
+      "span[data-switch-thumb]",
+      "span[data-switch-visual]"
+    ],
+    "sizes": {
+      "md": {
+        "trackWidth": 32,
+        "trackHeight": 20,
+        "thumbSize": 16,
+        "hoverWidth": 18,
+        "attractWidth": 24,
+        "checkedTranslateX": 13,
+        "uncheckedTranslateX": 1
+      },
+      "sm": {
+        "trackWidth": 28,
+        "trackHeight": 16,
+        "thumbSize": 12,
+        "hoverWidth": 14,
+        "attractWidth": 20,
+        "checkedTranslateX": 13,
+        "uncheckedTranslateX": 1
+      }
+    },
+    "motion": {
+      "trackDurationMs": 120,
+      "trackEasing": "ease-out",
+      "translateDurationMs": 150,
+      "translateEasing": "cubic-bezier(0.4,0,0.2,1)",
+      "visualDurationMs": 200,
+      "hoverDurationMs": 150,
+      "clickDurationMs": 150,
+      "clickTranslateDelayMs": 60,
+      "clickTranslateDurationMs": 90,
+      "widthKeyframes": [
+        {
+          "at": "0%",
+          "width": "hoverWidth",
+          "easing": "cubic-bezier(.2,.8,.2,1)"
+        },
+        {
+          "at": "33.333%",
+          "width": "attractWidth",
+          "easing": "linear"
+        },
+        {
+          "at": "40%",
+          "width": "attractWidth",
+          "easing": "cubic-bezier(.4,0,.2,1)"
+        },
+        {
+          "at": "100%",
+          "width": "thumbSize"
+        }
+      ],
+      "hoverMedia": "(hover: hover) and (pointer: fine)",
+      "disabledOpacity": 0.5,
+      "reducedMotion": "no animation or transition",
+      "pointerClick": "event.detail > 0 sets on/off attraction; pointerenter resets motion",
+      "keyboardClick": "event.detail == 0 toggles state without attraction"
+    },
+    "tokens": {
+      "on": "primary",
+      "off": "switch-off-bg",
+      "offBorder": "switch-off-border",
+      "visual": "text-on-primary",
+      "shadow": "shadow-color-4",
+      "focusBorder": "primary-border"
+    }
+  },
+  "recipes": {
+    "button": {
+      "asset": "out/renderer/assets/CMOdY8kL.js",
+      "byteOffset": 986038,
+      "byteLength": 3027,
+      "compiledRecipe": "const Button=reactExports.forwardRef(({variant:e=\"ghost\",children:t,size:n=\"md\",textButton:a=!1,prefixIcon:o,suffixIcon:l,rounded:me=\"square\",disabled:mt=!1,className:gt,...yt},e0)=>{const t0=a?\"text\":e,r0=clsx(\"inline-flex items-center transition-[color,background-color,outline-color,text-decoration-color,fill,stroke] duration-150 motion-reduce:transition-none focus:outline-none\",n!==\"custom\"&&\"justify-center\",me===\"pill\"&&\"squircle-full\",me===\"square\"&&\"squircle-2xl\"),n0={sm:clsx(t0===\"text\"?\"gap-1 py-0.5 text-xs font-medium leading-4\":\"h-5 gap-1 px-2 py-0.5 text-xs font-medium leading-4\"),md:clsx(t0===\"text\"?\"gap-1.5 py-1.5 text-[13px] font-medium leading-4\":clsx(\"h-7 gap-1.5 text-[13px] font-medium leading-4\",o?\"pl-2.5 pr-3.5\":\"px-3\")),lg:clsx(t0===\"text\"?\"gap-2 py-2 text-sm font-medium\":\"h-9 gap-2 px-4 py-2 text-sm font-medium\"),custom:\"\"},s0={primary:clsx(\"bg-primary text-text-on-primary\",!mt&&\"hover:bg-primary-hover focus-visible:bg-primary-active cursor-pointer\",mt&&\"opacity-50 cursor-not-allowed\"),secondary:clsx(\"bg-bg-highlight text-text-on-primary\",!mt&&\"hover:bg-bg-highlight-hover focus-visible:bg-bg-highlight-hover cursor-pointer\",mt&&\"opacity-50 cursor-not-allowed\"),tertiary:clsx(\"bg-fill-secondary text-text\",!mt&&\"hover:bg-fill focus-visible:bg-fill cursor-pointer\",mt&&\"opacity-50 cursor-not-allowed\"),tertiaryDestructive:clsx(\"bg-error-bg text-error\",!mt&&\"hover:bg-error-bg-hover focus-visible:bg-error-bg-hover cursor-pointer\",mt&&\"opacity-50 cursor-not-allowed\"),ghost:clsx(\"bg-transparent text-text-secondary\",!mt&&\"hover:bg-fill-secondary hover:text-text focus-visible:bg-fill-secondary focus-visible:text-text cursor-pointer\",mt&&\"opacity-50 cursor-not-allowed\"),text:clsx(\"bg-transparent text-text-secondary\",!mt&&\"hover:text-text focus-visible:text-primary cursor-pointer\",mt&&\"opacity-50 cursor-not-allowed\"),outline:clsx(\"border border-border-tertiary bg-bg-base text-text\",!mt&&\"hover:bg-fill-secondary hover:text-text focus-visible:border-primary-border focus-visible:bg-fill-secondary cursor-pointer\",mt&&\"opacity-50 cursor-not-allowed\"),raised:clsx(\"bg-button-raised-bg text-text shadow-button-raised transition-[color,background-color,box-shadow,transform] duration-[120ms]\",!mt&&\"hover:bg-button-raised-bg-hover focus-visible:bg-button-raised-bg-hover focus-visible:shadow-button-raised-focus active:scale-[0.96] motion-reduce:active:scale-100 cursor-pointer\",mt&&\"opacity-50 cursor-not-allowed\"),destructive:clsx(\"bg-error text-text-on-primary\",!mt&&\"hover:bg-error/90 focus-visible:bg-error-hover cursor-pointer\",mt&&\"opacity-50 cursor-not-allowed\")};return jsxRuntimeExports.jsxs(\"button\",{ref:e0,className:cn$4(r0,n0[n],s0[t0],gt),disabled:mt,...yt,children:[o&&jsxRuntimeExports.jsx(\"span\",{className:\"inline-flex shrink-0 items-center justify-center [&>*]:block [&>*]:leading-none\",children:o}),t,l&&jsxRuntimeExports.jsx(\"span\",{className:\"inline-flex shrink-0 items-center justify-center [&>*]:block [&>*]:leading-none\",children:l})]})});Button.displayName=\"Button\";"
+    },
+    "input": {
+      "asset": "out/renderer/assets/CMOdY8kL.js",
+      "byteOffset": 1528682,
+      "byteLength": 1662,
+      "compiledRecipe": "const Input=reactExports.forwardRef(({className:e,type:t,variant:n=\"outline\",size:a=\"md\",htmlSize:o,error:l,focusVariant:me=\"border\",\"aria-invalid\":mt,...gt},yt)=>{const e0=!!l||mt!=null&&mt!==!1&&mt!==\"false\",t0=l?!0:mt,r0={sm:\"h-5 px-2 text-xs leading-4\",md:\"h-7 px-3 text-[13px] leading-4\",lg:\"h-9 px-4 text-sm leading-5\",custom:\"\"},n0={outline:\"bg-bg-container\",filled:\"border-transparent bg-fill-tertiary hover:bg-fill-secondary focus:border-transparent focus:bg-fill-secondary\"};return jsxRuntimeExports.jsx(\"input\",{type:t,ref:yt,size:o,\"aria-invalid\":t0,className:clsx(\"flex w-full squircle-2xl border py-0 text-text transition-[color,background-color,border-color,box-shadow,opacity] duration-150 motion-reduce:transition-none\",r0[a],n0[n],\"placeholder:text-text-quaternary\",\"focus:outline-none focus:ring-0\",\"disabled:cursor-not-allowed disabled:opacity-50\",t===\"search\"&&\"[&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none [&::-webkit-search-results-button]:appearance-none [&::-webkit-search-results-decoration]:appearance-none\",t===\"file\"&&\"p-0 pr-3 italic text-text-tertiary file:me-3 file:h-full file:border-0 file:border-r file:border-solid file:border-border-tertiary file:bg-transparent file:px-3 file:text-sm file:font-medium file:not-italic file:text-text\",t===\"number\"&&\"[appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none\",e0?\"border-error focus:border-error\":n===\"outline\"&&[\"border-border-tertiary\",me===\"shadow\"?\"focus:border-transparent focus:shadow-input-focus\":\"focus:border-border\"],e),...gt})});Input.displayName=\"Input\";"
+    },
+    "checkbox": {
+      "asset": "out/renderer/assets/CMOdY8kL.js",
+      "byteOffset": 1143306,
+      "byteLength": 2352,
+      "compiledRecipe": "const checkboxSizeClassNames={md:{root:\"size-4\",indicator:\"size-[10px]\"},lg:{root:\"size-5 rounded-md\",indicator:\"size-3\"}};function CheckboxCheckIndicator({className:e,...t}){return jsxRuntimeExports.jsx(\"svg\",{className:e,viewBox:\"0 0 10 10\",fill:\"none\",\"aria-hidden\":!0,...t,children:jsxRuntimeExports.jsx(\"path\",{\"data-slot\":\"checkbox-check\",d:\"M1 5.1L3.7 7.8L9 1.5\",pathLength:\"11\",stroke:\"currentColor\",strokeWidth:\"1.5\",strokeLinecap:\"round\",strokeLinejoin:\"round\",className:\"[stroke-dasharray:11] [stroke-dashoffset:11] transition-[stroke-dashoffset] duration-[100ms] ease-[cubic-bezier(0.22,1,0.36,1)] group-data-[state=checked]/checkbox-indicator:[stroke-dashoffset:0] group-data-[state=checked]/checkbox-indicator:duration-200 motion-reduce:transition-none\"})})}const Checkbox=reactExports.forwardRef(({className:e,size:t=\"md\",...n},a)=>{const o=checkboxSizeClassNames[t];return jsxRuntimeExports.jsx(Checkbox$1,{ref:a,className:clsx(\"peer shrink-0 cursor-pointer rounded border border-border-tertiary bg-bg-container transition-[background-color,border-color] duration-150 ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transition-none\",\"focus-visible:outline-none focus-visible:border-primary-border focus-visible:bg-primary-bg data-[state=checked]:focus-visible:bg-primary-active\",\"disabled:cursor-not-allowed disabled:data-[state=unchecked]:bg-fill-secondary disabled:data-[state=checked]:opacity-50 disabled:data-[state=indeterminate]:opacity-50\",\"data-[state=checked]:border-primary data-[state=checked]:bg-primary data-[state=checked]:text-white\",\"data-[state=indeterminate]:border-primary data-[state=indeterminate]:bg-primary data-[state=indeterminate]:text-white\",o.root,e),...n,children:jsxRuntimeExports.jsxs(CheckboxIndicator,{forceMount:!0,className:\"group/checkbox-indicator relative flex size-full items-center justify-center text-[var(--q292341)]\",children:[jsxRuntimeExports.jsx(CheckboxCheckIndicator,{className:o.indicator}),jsxRuntimeExports.jsx(\"svg\",{className:clsx(\"absolute opacity-0 group-data-[state=indeterminate]/checkbox-indicator:opacity-100\",o.indicator),viewBox:\"0 0 10 10\",fill:\"none\",\"aria-hidden\":!0,children:jsxRuntimeExports.jsx(\"path\",{\"data-slot\":\"checkbox-indeterminate\",d:\"M2 5H8\",stroke:\"currentColor\",strokeWidth:\"1.5\",strokeLinecap:\"round\"})})]})})});Checkbox.displayName=Checkbox$1.displayName;"
+    },
+    "radio": {
+      "asset": "out/renderer/assets/CMOdY8kL.js",
+      "byteOffset": 2654065,
+      "byteLength": 801,
+      "compiledRecipe": "const RadioGroupItem=reactExports.forwardRef(({className:e,...t},n)=>jsxRuntimeExports.jsx(RadioGroupItem$1,{ref:n,className:clsx(\"size-4 shrink-0 rounded-full border border-[var(--q015283)] outline-offset-2 cursor-pointer\",\"focus-visible:outline-none focus-visible:border-primary-border focus-visible:bg-primary-bg data-[state=checked]:focus-visible:bg-primary-active\",\"disabled:cursor-not-allowed disabled:opacity-50\",\"data-[state=checked]:border-[var(--q0704b8)] data-[state=checked]:bg-[var(--q0704b8)] data-[state=checked]:text-[var(--qb28b89)]\",e),...t,children:jsxRuntimeExports.jsx(RadioGroupIndicator,{className:\"flex items-center justify-center\",children:jsxRuntimeExports.jsx(\"span\",{className:\"size-2 rounded-full bg-current\"})})}));RadioGroupItem.displayName=RadioGroupItem$1.displayName;"
+    },
+    "slider": {
+      "asset": "out/renderer/assets/CMOdY8kL.js",
+      "byteOffset": 2687759,
+      "byteLength": 1635,
+      "compiledRecipe": "const Slider=reactExports.forwardRef(({className:e,size:t=\"md\",thumbLabels:n,getValueLabel:a,\"aria-label\":o,\"aria-labelledby\":l,...me},mt)=>{const gt=me.value??me.defaultValue??[50];return jsxRuntimeExports.jsxs(Slider$1,{ref:mt,className:cn$4(\"relative flex w-full touch-none select-none items-center cursor-pointer data-[disabled]:cursor-not-allowed data-[disabled]:opacity-50\",\"data-[orientation=vertical]:h-full data-[orientation=vertical]:w-auto data-[orientation=vertical]:flex-col\",e),...me,children:[jsxRuntimeExports.jsx(SliderTrack,{className:cn$4(\"relative grow overflow-hidden rounded-full bg-fill-secondary\",t===\"sm\"?\"data-[orientation=horizontal]:h-1 data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-1\":\"data-[orientation=horizontal]:h-2 data-[orientation=horizontal]:w-full data-[orientation=vertical]:h-full data-[orientation=vertical]:w-2\"),children:jsxRuntimeExports.jsx(SliderRange,{className:cn$4(\"absolute rounded-full bg-primary\",\"data-[orientation=horizontal]:h-full\",\"data-[orientation=vertical]:w-full\")})}),gt.map((yt,e0)=>jsxRuntimeExports.jsx(SliderThumb,{\"aria-label\":n?.[e0]??o,\"aria-labelledby\":l,\"aria-disabled\":me.disabled||void 0,\"aria-valuetext\":a?.(yt,e0),className:cn$4(\"block rounded-full border-primary bg-bg-base shadow-natural-sm\",t===\"sm\"?\"size-3 border\":\"size-5 border-2\",\"transition-[background-color,border-color,opacity] duration-150 motion-reduce:transition-none\",\"focus-visible:border-primary-border focus-visible:bg-primary-bg focus-visible:outline-none\",\"data-[disabled]:pointer-events-none\")},e0))]})});Slider.displayName=\"Slider\";"
+    },
+    "switch": {
+      "asset": "out/renderer/assets/CMOdY8kL.js",
+      "byteOffset": 2689394,
+      "byteLength": 1956,
+      "compiledRecipe": "const switchSizeClassNames={md:{root:\"h-5 w-8\",thumb:\"size-4\",visual:\"h-4 [--qb9d00d:16px] [--q69124d:18px] [--q88ca86:24px]\",checkedTranslate:\"translate-x-[13px]\",uncheckedTranslate:\"translate-x-px\"},sm:{root:\"h-4 w-7\",thumb:\"size-3\",visual:\"h-3 [--qb9d00d:12px] [--q69124d:14px] [--q88ca86:20px]\",checkedTranslate:\"translate-x-[13px]\",uncheckedTranslate:\"translate-x-px\"}},Switch=reactExports.forwardRef(({checked:e=!1,onCheckedChange:t,disabled:n=!1,size:a=\"md\",className:o,onClick:l,onPointerEnter:me,onPointerLeave:mt,...gt},yt)=>{const e0=switchSizeClassNames[a],[t0,r0]=reactExports.useState(null),n0=c0=>{n||(r0(c0.detail>0?e?\"off\":\"on\":null),t?.(!e),l?.(c0))},s0=c0=>{r0(null),me?.(c0)},i0=c0=>{mt?.(c0)};return jsxRuntimeExports.jsx(\"button\",{ref:yt,type:\"button\",role:\"switch\",\"aria-checked\":e,disabled:n,\"data-switch-motion\":t0??void 0,onClick:n0,onPointerEnter:s0,onPointerLeave:i0,className:clsx(\"qoder-switch group/switch relative inline-flex shrink-0 cursor-pointer items-center rounded-full border transition-[background-color,border-color] duration-[120ms] ease-out motion-reduce:transition-none\",\"focus:outline-none focus-visible:border-primary-border\",\"disabled:cursor-not-allowed disabled:opacity-50\",e?\"border-transparent bg-[var(--q1c50a8)]\":\"border-[var(--qace5a8)] bg-[var(--q079bfd)]\",e0.root,o),...gt,children:jsxRuntimeExports.jsx(\"span\",{\"data-switch-thumb\":\"\",className:clsx(\"pointer-events-none relative block transition-transform duration-150 ease-[cubic-bezier(0.4,0,0.2,1)] motion-reduce:transition-none\",e0.thumb,e?e0.checkedTranslate:e0.uncheckedTranslate),children:jsxRuntimeExports.jsx(\"span\",{\"aria-hidden\":\"true\",\"data-switch-visual\":\"\",className:clsx(\"absolute top-0 rounded-full bg-[var(--q292341)] drop-shadow-[0_2px_2px_var(--qd4450b)]\",e0.visual,t0===\"on\"&&\"qoder-switch-attract-on\",t0===\"off\"&&\"qoder-switch-attract-off\",t0===\"on\"?\"left-0\":t0===\"off\"||e?\"right-0\":\"left-0\")})})})});Switch.displayName=\"Switch\";"
+    }
+  },
+  "switchCss": {
+    "asset": "out/renderer/assets/index-DT-bZ071.css",
+    "byteOffset": 68083,
+    "byteLength": 1168,
+    "compiledRecipe": ".qoder-switch [data-switch-visual]{width:var(--qb9d00d);transition:width .2s ease-out}@media(hover:hover)and (pointer:fine){.qoder-switch:not(:disabled):not([data-switch-motion]):hover [data-switch-visual]{width:var(--q69124d);transition-duration:.15s}}.qoder-switch[data-switch-motion] [data-switch-thumb]{transition-delay:60ms;transition-duration:90ms}.qoder-switch-attract-on{animation:qoder-switch-attract-width-on .15s both}.qoder-switch-attract-off{animation:qoder-switch-attract-width-off .15s both}@keyframes qoder-switch-attract-width-on{0%{width:var(--q69124d);animation-timing-function:cubic-bezier(.2,.8,.2,1)}33.333%{width:var(--q88ca86);animation-timing-function:linear}40%{width:var(--q88ca86);animation-timing-function:cubic-bezier(.4,0,.2,1)}to{width:var(--qb9d00d)}}@keyframes qoder-switch-attract-width-off{0%{width:var(--q69124d);animation-timing-function:cubic-bezier(.2,.8,.2,1)}33.333%{width:var(--q88ca86);animation-timing-function:linear}40%{width:var(--q88ca86);animation-timing-function:cubic-bezier(.4,0,.2,1)}to{width:var(--qb9d00d)}}@media(prefers-reduced-motion:reduce){.qoder-switch [data-switch-visual]{animation:none;transition:none}}"
+  },
+  "sliderThumbBounds": {
+    "asset": "out/renderer/assets/CMOdY8kL.js",
+    "byteOffset": 2686371,
+    "byteLength": 154,
+    "compiledRecipe": "function getThumbInBoundsOffset(e,t,n){const a=e/2,l=linearScale([0,50],[0,a]);return(a-l(t)*n)*n}__name(getThumbInBoundsOffset,\"getThumbInBoundsOffset\");"
+  }
+}

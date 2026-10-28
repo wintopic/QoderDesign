@@ -1,0 +1,1377 @@
+{
+  "status": "passed",
+  "source": "Qoder CN 0.4.8",
+  "date": "2026-10-24",
+  "themeTokenComparisons": 126,
+  "tokenDifferences": [],
+  "checks": {
+    "mdHover": {
+      "hover": true,
+      "width": "18px",
+      "x": "matrix(1, 0, 0, 1, 1, 0)"
+    },
+    "pointerMotion": {
+      "animations": [
+        {
+          "duration": 150,
+          "keyframes": [
+            {
+              "easing": "linear",
+              "offset": 0,
+              "width": "16px"
+            },
+            {
+              "easing": "linear",
+              "offset": 1,
+              "width": "18px"
+            }
+          ]
+        },
+        {
+          "duration": 150,
+          "keyframes": [
+            {
+              "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+              "offset": 0,
+              "width": "18px"
+            },
+            {
+              "easing": "linear",
+              "offset": 0.33332999999999996,
+              "width": "24px"
+            },
+            {
+              "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+              "offset": 0.4,
+              "width": "24px"
+            },
+            {
+              "easing": "ease",
+              "offset": 1,
+              "width": "16px"
+            }
+          ]
+        }
+      ],
+      "checked": "true",
+      "detail": 1,
+      "events": 1,
+      "frameCount": 16,
+      "label": "中号开关：关闭",
+      "maximumWidth": 24,
+      "minimumInset": 1.79998779296875,
+      "motion": "on",
+      "restingWidth": 16
+    },
+    "disabledClick": {
+      "checked": "false",
+      "width": "16px"
+    },
+    "keyboardEnter": {
+      "checked": "false",
+      "detail": 0,
+      "events": 2,
+      "focusBorder": "rgb(213, 219, 216)",
+      "focusVisible": true,
+      "motion": null,
+      "outline": "none"
+    },
+    "keyboardSpace": {
+      "checked": "true",
+      "detail": 0,
+      "events": 3,
+      "motion": null
+    },
+    "smHover": {
+      "hover": true,
+      "width": "14px"
+    },
+    "reducedMotion": {
+      "checked": "true",
+      "reduce": true,
+      "thumbDelay": "0s",
+      "thumbTransition": "0s",
+      "visualAnimation": "none",
+      "visualTransition": "0s",
+      "width": "12px"
+    },
+    "forcedColors": {
+      "active": true,
+      "background": "rgb(55, 0, 110)",
+      "border": "rgb(55, 0, 110)",
+      "checked": "true",
+      "filter": "none",
+      "forcedColorAdjust": "none",
+      "visualBackground": "rgb(255, 255, 255)"
+    },
+    "slider": {
+      "initial": {
+        "events": "events: 0",
+        "sliders": [
+          {
+            "center": "65px",
+            "id": "slider-md",
+            "value": "25",
+            "width": "240px"
+          },
+          {
+            "center": "177px",
+            "id": "slider-sm",
+            "value": "75",
+            "width": "240px"
+          },
+          {
+            "center": "120px",
+            "id": "slider-negative",
+            "value": "-50",
+            "width": "240px"
+          }
+        ]
+      },
+      "keyboard": [
+        {
+          "key": "ArrowRight",
+          "center": "120px",
+          "events": "events: 1 · value: 50 · max: 100",
+          "id": "slider-md",
+          "max": "100",
+          "min": "0",
+          "value": "50"
+        },
+        {
+          "key": "End",
+          "center": "230px",
+          "events": "events: 2 · value: 100 · max: 100",
+          "id": "slider-md",
+          "max": "100",
+          "min": "0",
+          "value": "100"
+        },
+        {
+          "key": "Home",
+          "center": "10px",
+          "events": "events: 3 · value: 0 · max: 100",
+          "id": "slider-md",
+          "max": "100",
+          "min": "0",
+          "value": "0"
+        },
+        {
+          "key": "Home",
+          "center": "6px",
+          "events": "events: 4 · value: 0 · max: 100",
+          "id": "slider-sm",
+          "max": "100",
+          "min": "0",
+          "value": "0"
+        },
+        {
+          "key": "End",
+          "center": "234px",
+          "events": "events: 5 · value: 100 · max: 100",
+          "id": "slider-sm",
+          "max": "100",
+          "min": "0",
+          "value": "100"
+        },
+        {
+          "key": "End",
+          "center": "230px",
+          "events": "events: 6 · value: 0 · max: 0",
+          "id": "slider-negative",
+          "max": "0",
+          "min": "-100",
+          "value": "0"
+        },
+        {
+          "key": "Home",
+          "center": "10px",
+          "events": "events: 7 · value: -100 · max: 0",
+          "id": "slider-negative",
+          "max": "0",
+          "min": "-100",
+          "value": "-100"
+        },
+        {
+          "key": "ArrowRight",
+          "center": "32px",
+          "events": "events: 8 · value: -90 · max: 0",
+          "id": "slider-negative",
+          "max": "0",
+          "min": "-100",
+          "value": "-90"
+        }
+      ],
+      "pointer": {
+        "center": "175px",
+        "events": "events: 9 · value: 75 · max: 100",
+        "id": "slider-md",
+        "max": "100",
+        "min": "0",
+        "value": "75"
+      },
+      "resize": {
+        "after": {
+          "center": "265px",
+          "events": "events: 9 · value: 75 · max: 100",
+          "width": "360px"
+        },
+        "before": "events: 9 · value: 75 · max: 100",
+        "restored": {
+          "center": "175px",
+          "events": "events: 9 · value: 75 · max: 100",
+          "width": "240px"
+        }
+      }
+    },
+    "checkboxRadio": {
+      "checkboxes": [
+        {
+          "background": "rgb(75, 111, 90)",
+          "checked": true,
+          "disabled": false,
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+          "label": "Checkbox enabled",
+          "opacity": "1",
+          "width": "16px"
+        },
+        {
+          "background": "rgb(239, 239, 239)",
+          "checked": false,
+          "disabled": true,
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+          "label": "Checkbox disabled",
+          "opacity": "1",
+          "width": "16px"
+        },
+        {
+          "background": "rgb(75, 111, 90)",
+          "checked": true,
+          "disabled": true,
+          "easing": "cubic-bezier(0.22, 1, 0.36, 1), cubic-bezier(0.22, 1, 0.36, 1)",
+          "label": "Checkbox checked disabled",
+          "opacity": "1",
+          "width": "16px"
+        }
+      ],
+      "radios": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "bgToken": "#fff",
+          "border": "rgb(188, 187, 186)",
+          "checked": false,
+          "indicator": "rgb(255, 255, 255)",
+          "label": "Radio first",
+          "textToken": "#141414"
+        },
+        {
+          "background": "rgb(20, 20, 20)",
+          "bgToken": "#fff",
+          "border": "rgb(20, 20, 20)",
+          "checked": true,
+          "indicator": "rgb(255, 255, 255)",
+          "label": "Radio second",
+          "textToken": "#141414"
+        }
+      ]
+    },
+    "effects": {
+      "off": {
+        "effects": "off",
+        "switches": [
+          {
+            "checked": "false",
+            "label": "视觉特效"
+          },
+          {
+            "checked": "false",
+            "label": "模糊与玻璃效果"
+          }
+        ]
+      },
+      "on": {
+        "effects": "on",
+        "switches": [
+          {
+            "checked": "true",
+            "label": "视觉特效"
+          },
+          {
+            "checked": "true",
+            "label": "模糊与玻璃效果"
+          }
+        ]
+      }
+    },
+    "checkboxDisabled": [
+      {
+        "boxOpacity": "1",
+        "checked": false,
+        "label": "Checkbox disabled"
+      },
+      {
+        "boxOpacity": "0.5",
+        "checked": true,
+        "label": "Checkbox checked disabled"
+      }
+    ],
+    "copy": {
+      "characters": 2182,
+      "switches": 8,
+      "thumbs": 8,
+      "visuals": 8,
+      "disabled": 4
+    },
+    "themeTransitions": {
+      "fallback": {
+        "marker": null,
+        "theme": "forest-dark"
+      },
+      "rapid": {
+        "events": [
+          "light"
+        ],
+        "marker": null,
+        "theme": "light",
+        "transitions": 2
+      }
+    },
+    "allSwitches": {
+      "complete": true,
+      "count": 26,
+      "states": [
+        {
+          "checked": "false",
+          "label": "中号开关：关闭"
+        },
+        {
+          "checked": "true",
+          "label": "中号开关：开启"
+        },
+        {
+          "checked": "false",
+          "label": "中号开关：禁用关闭"
+        },
+        {
+          "checked": "true",
+          "label": "中号开关：禁用开启"
+        },
+        {
+          "checked": "false",
+          "label": "小号开关：关闭"
+        },
+        {
+          "checked": "true",
+          "label": "小号开关：开启"
+        },
+        {
+          "checked": "false",
+          "label": "小号开关：禁用关闭"
+        },
+        {
+          "checked": "true",
+          "label": "小号开关：禁用开启"
+        }
+      ]
+    },
+    "smallPointerMotion": {
+      "checked": "true",
+      "frameCount": 17,
+      "keyframes": [
+        {
+          "offset": 0,
+          "width": "12px"
+        },
+        {
+          "offset": 1,
+          "width": "14px"
+        },
+        {
+          "offset": 0,
+          "width": "14px"
+        },
+        {
+          "offset": 0.33332999999999996,
+          "width": "20px"
+        },
+        {
+          "offset": 0.4,
+          "width": "20px"
+        },
+        {
+          "offset": 1,
+          "width": "12px"
+        }
+      ],
+      "maximumWidth": 20,
+      "minimumInset": 1.79998779296875,
+      "restingWidth": 12
+    },
+    "switchSurface": {
+      "offTrack": "rgb(239, 239, 239)",
+      "panel": "rgb(255, 255, 255)",
+      "scroll": 762,
+      "sourceOff": "#efefef",
+      "sourceSurface": "#fff",
+      "width": 762
+    }
+  },
+  "responsive": [
+    {
+      "width": 1440,
+      "starter": {
+        "body": 1425,
+        "client": 1425,
+        "controls": [
+          {
+            "right": 1197.6000366210938,
+            "width": 208,
+            "x": 989.6000366210938
+          },
+          {
+            "right": 1197.5999755859375,
+            "width": 32,
+            "x": 1165.5999755859375
+          },
+          {
+            "right": 1197.5999755859375,
+            "width": 32,
+            "x": 1165.5999755859375
+          },
+          {
+            "right": 1197.5999755859375,
+            "width": 28,
+            "x": 1169.5999755859375
+          },
+          {
+            "right": 1197.5999755859375,
+            "width": 28,
+            "x": 1169.5999755859375
+          },
+          {
+            "right": 1197.5999755859375,
+            "width": 105,
+            "x": 1092.5999755859375
+          },
+          {
+            "right": 1197.6000366210938,
+            "width": 200,
+            "x": 997.6000366210938
+          }
+        ],
+        "scroll": 1425,
+        "sidebar": "flex",
+        "viewport": 1440
+      },
+      "showcase": {
+        "body": 1425,
+        "client": 1425,
+        "codeScroll": 1968,
+        "codeWidth": 1198,
+        "matrixScroll": 1169,
+        "matrixWidth": 1168.800048828125,
+        "scroll": 1425,
+        "themes": 1168.800048828125,
+        "viewport": 1440
+      }
+    },
+    {
+      "width": 1024,
+      "starter": {
+        "body": 1009,
+        "client": 1009,
+        "controls": [
+          {
+            "right": 955.2000122070312,
+            "width": 208,
+            "x": 747.2000122070312
+          },
+          {
+            "right": 955.2000122070312,
+            "width": 32,
+            "x": 923.2000122070312
+          },
+          {
+            "right": 955.2000122070312,
+            "width": 32,
+            "x": 923.2000122070312
+          },
+          {
+            "right": 955.2000122070312,
+            "width": 28,
+            "x": 927.2000122070312
+          },
+          {
+            "right": 955.2000122070312,
+            "width": 28,
+            "x": 927.2000122070312
+          },
+          {
+            "right": 955.2000122070312,
+            "width": 105,
+            "x": 850.2000122070312
+          },
+          {
+            "right": 955.2000122070312,
+            "width": 200,
+            "x": 755.2000122070312
+          }
+        ],
+        "scroll": 1009,
+        "sidebar": "flex",
+        "viewport": 1024
+      },
+      "showcase": {
+        "body": 1009,
+        "client": 1009,
+        "codeScroll": 1968,
+        "codeWidth": 886,
+        "matrixScroll": 858,
+        "matrixWidth": 857.6000366210938,
+        "scroll": 1009,
+        "themes": 857.6000366210938,
+        "viewport": 1024
+      }
+    },
+    {
+      "width": 768,
+      "starter": {
+        "body": 753,
+        "client": 753,
+        "controls": [
+          {
+            "right": 707.2000122070312,
+            "width": 208,
+            "x": 499.2000122070313
+          },
+          {
+            "right": 707.2000122070312,
+            "width": 32,
+            "x": 675.2000122070312
+          },
+          {
+            "right": 707.2000122070312,
+            "width": 32,
+            "x": 675.2000122070312
+          },
+          {
+            "right": 707.2000122070312,
+            "width": 28,
+            "x": 679.2000122070312
+          },
+          {
+            "right": 707.2000122070312,
+            "width": 28,
+            "x": 679.2000122070312
+          },
+          {
+            "right": 707.2000122070312,
+            "width": 105,
+            "x": 602.2000122070312
+          },
+          {
+            "right": 707.2000122070312,
+            "width": 200,
+            "x": 507.2000122070313
+          }
+        ],
+        "scroll": 753,
+        "sidebar": "none",
+        "viewport": 768
+      },
+      "showcase": {
+        "body": 753,
+        "client": 753,
+        "codeScroll": 1968,
+        "codeWidth": 636,
+        "matrixScroll": 608,
+        "matrixWidth": 607.6000366210938,
+        "scroll": 753,
+        "themes": 607.6000366210938,
+        "viewport": 768
+      }
+    },
+    {
+      "width": 390,
+      "starter": {
+        "body": 375,
+        "client": 375,
+        "controls": [
+          {
+            "right": 337.60000228881836,
+            "width": 300,
+            "x": 37.60000228881836
+          },
+          {
+            "right": 337.60000228881836,
+            "width": 300,
+            "x": 37.60000228881836
+          },
+          {
+            "right": 337.60000228881836,
+            "width": 300,
+            "x": 37.60000228881836
+          },
+          {
+            "right": 337.60000228881836,
+            "width": 300,
+            "x": 37.60000228881836
+          },
+          {
+            "right": 337.60000228881836,
+            "width": 300,
+            "x": 37.60000228881836
+          },
+          {
+            "right": 337.60000228881836,
+            "width": 300,
+            "x": 37.60000228881836
+          },
+          {
+            "right": 182.60000228881836,
+            "width": 145,
+            "x": 37.60000228881836
+          }
+        ],
+        "scroll": 375,
+        "sidebar": "none",
+        "viewport": 390
+      },
+      "showcase": {
+        "body": 375,
+        "client": 375,
+        "codeScroll": 1968,
+        "codeWidth": 281,
+        "matrixScroll": 264,
+        "matrixWidth": 264,
+        "scroll": 375,
+        "themes": 264,
+        "viewport": 390
+      }
+    },
+    {
+      "width": 320,
+      "starter": {
+        "body": 305,
+        "client": 305,
+        "controls": [
+          {
+            "right": 267.200008392334,
+            "width": 229.6000061035156,
+            "x": 37.60000228881836
+          },
+          {
+            "right": 267.200008392334,
+            "width": 229.6000061035156,
+            "x": 37.60000228881836
+          },
+          {
+            "right": 267.200008392334,
+            "width": 229.6000061035156,
+            "x": 37.60000228881836
+          },
+          {
+            "right": 267.200008392334,
+            "width": 229.6000061035156,
+            "x": 37.60000228881836
+          },
+          {
+            "right": 267.200008392334,
+            "width": 229.6000061035156,
+            "x": 37.60000228881836
+          },
+          {
+            "right": 267.200008392334,
+            "width": 229.6000061035156,
+            "x": 37.60000228881836
+          },
+          {
+            "right": 182.60000228881836,
+            "width": 145,
+            "x": 37.60000228881836
+          }
+        ],
+        "scroll": 305,
+        "sidebar": "none",
+        "viewport": 320
+      },
+      "showcase": {
+        "body": 305,
+        "client": 305,
+        "codeScroll": 1968,
+        "codeWidth": 224,
+        "matrixScroll": 208,
+        "matrixWidth": 207.6000061035156,
+        "scroll": 305,
+        "themes": 207.6000061035156,
+        "viewport": 320
+      }
+    }
+  ],
+  "sourceStates": [
+    {
+      "checked": "false",
+      "cornerShape": "superellipse(1)",
+      "disabled": false,
+      "disabledOpacity": "1",
+      "height": "20px",
+      "label": "中号开关：关闭",
+      "transform": "matrix(1, 0, 0, 1, 1, 0)",
+      "visualWidth": "16px",
+      "width": "32px"
+    },
+    {
+      "checked": "true",
+      "cornerShape": "superellipse(1)",
+      "disabled": false,
+      "disabledOpacity": "1",
+      "height": "20px",
+      "label": "中号开关：开启",
+      "transform": "matrix(1, 0, 0, 1, 13, 0)",
+      "visualWidth": "16px",
+      "width": "32px"
+    },
+    {
+      "checked": "false",
+      "cornerShape": "superellipse(1)",
+      "disabled": true,
+      "disabledOpacity": "0.5",
+      "height": "20px",
+      "label": "中号开关：禁用关闭",
+      "transform": "matrix(1, 0, 0, 1, 1, 0)",
+      "visualWidth": "16px",
+      "width": "32px"
+    },
+    {
+      "checked": "true",
+      "cornerShape": "superellipse(1)",
+      "disabled": true,
+      "disabledOpacity": "0.5",
+      "height": "20px",
+      "label": "中号开关：禁用开启",
+      "transform": "matrix(1, 0, 0, 1, 13, 0)",
+      "visualWidth": "16px",
+      "width": "32px"
+    },
+    {
+      "checked": "false",
+      "cornerShape": "superellipse(1)",
+      "disabled": false,
+      "disabledOpacity": "1",
+      "height": "16px",
+      "label": "小号开关：关闭",
+      "transform": "matrix(1, 0, 0, 1, 1, 0)",
+      "visualWidth": "12px",
+      "width": "28px"
+    },
+    {
+      "checked": "true",
+      "cornerShape": "superellipse(1)",
+      "disabled": false,
+      "disabledOpacity": "1",
+      "height": "16px",
+      "label": "小号开关：开启",
+      "transform": "matrix(1, 0, 0, 1, 13, 0)",
+      "visualWidth": "12px",
+      "width": "28px"
+    },
+    {
+      "checked": "false",
+      "cornerShape": "superellipse(1)",
+      "disabled": true,
+      "disabledOpacity": "0.5",
+      "height": "16px",
+      "label": "小号开关：禁用关闭",
+      "transform": "matrix(1, 0, 0, 1, 1, 0)",
+      "visualWidth": "12px",
+      "width": "28px"
+    },
+    {
+      "checked": "true",
+      "cornerShape": "superellipse(1)",
+      "disabled": true,
+      "disabledOpacity": "0.5",
+      "height": "16px",
+      "label": "小号开关：禁用开启",
+      "transform": "matrix(1, 0, 0, 1, 13, 0)",
+      "visualWidth": "12px",
+      "width": "28px"
+    }
+  ],
+  "frameworks": {
+    "React": {
+      "pointer": {
+        "status": "MD: true · SM: true · events: 1",
+        "switches": [
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "20px",
+            "label": "React MD",
+            "motion": "on",
+            "width": "32px"
+          },
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "16px",
+            "label": "React SM",
+            "motion": null,
+            "width": "28px"
+          },
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "20px",
+            "label": "React disabled",
+            "motion": null,
+            "width": "32px"
+          }
+        ]
+      },
+      "enter": {
+        "status": "MD: false · SM: true · events: 2",
+        "switches": [
+          {
+            "autoBind": false,
+            "checked": "false",
+            "height": "20px",
+            "label": "React MD",
+            "motion": null,
+            "width": "32px"
+          },
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "16px",
+            "label": "React SM",
+            "motion": null,
+            "width": "28px"
+          },
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "20px",
+            "label": "React disabled",
+            "motion": null,
+            "width": "32px"
+          }
+        ]
+      },
+      "space": {
+        "status": "MD: true · SM: true · events: 3",
+        "switches": [
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "20px",
+            "label": "React MD",
+            "motion": null,
+            "width": "32px"
+          },
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "16px",
+            "label": "React SM",
+            "motion": null,
+            "width": "28px"
+          },
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "20px",
+            "label": "React disabled",
+            "motion": null,
+            "width": "32px"
+          }
+        ]
+      },
+      "smallPointer": {
+        "status": "MD: true · SM: false · events: 4",
+        "switches": [
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "20px",
+            "label": "React MD",
+            "motion": null,
+            "width": "32px"
+          },
+          {
+            "autoBind": false,
+            "checked": "false",
+            "height": "16px",
+            "label": "React SM",
+            "motion": "off",
+            "width": "28px"
+          },
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "20px",
+            "label": "React disabled",
+            "motion": null,
+            "width": "32px"
+          }
+        ]
+      }
+    },
+    "Vue": {
+      "pointer": {
+        "status": "MD: true · SM: true · events: 1",
+        "switches": [
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "20px",
+            "label": "Vue MD",
+            "motion": "on",
+            "width": "32px"
+          },
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "16px",
+            "label": "Vue SM",
+            "motion": null,
+            "width": "28px"
+          },
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "20px",
+            "label": "Vue disabled",
+            "motion": null,
+            "width": "32px"
+          }
+        ]
+      },
+      "enter": {
+        "status": "MD: false · SM: true · events: 2",
+        "switches": [
+          {
+            "autoBind": false,
+            "checked": "false",
+            "height": "20px",
+            "label": "Vue MD",
+            "motion": null,
+            "width": "32px"
+          },
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "16px",
+            "label": "Vue SM",
+            "motion": null,
+            "width": "28px"
+          },
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "20px",
+            "label": "Vue disabled",
+            "motion": null,
+            "width": "32px"
+          }
+        ]
+      },
+      "space": {
+        "status": "MD: true · SM: true · events: 3",
+        "switches": [
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "20px",
+            "label": "Vue MD",
+            "motion": null,
+            "width": "32px"
+          },
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "16px",
+            "label": "Vue SM",
+            "motion": null,
+            "width": "28px"
+          },
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "20px",
+            "label": "Vue disabled",
+            "motion": null,
+            "width": "32px"
+          }
+        ]
+      },
+      "smallPointer": {
+        "status": "MD: true · SM: false · events: 4",
+        "switches": [
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "20px",
+            "label": "Vue MD",
+            "motion": null,
+            "width": "32px"
+          },
+          {
+            "autoBind": false,
+            "checked": "false",
+            "height": "16px",
+            "label": "Vue SM",
+            "motion": "off",
+            "width": "28px"
+          },
+          {
+            "autoBind": false,
+            "checked": "true",
+            "height": "20px",
+            "label": "Vue disabled",
+            "motion": null,
+            "width": "32px"
+          }
+        ]
+      }
+    },
+    "disabled": {
+      "React": "MD: true · SM: false · events: 4",
+      "Vue": "MD: true · SM: false · events: 4",
+      "states": [
+        {
+          "checked": "true",
+          "label": "React disabled"
+        },
+        {
+          "checked": "true",
+          "label": "Vue disabled"
+        },
+        {
+          "checked": "true",
+          "label": "Vanilla disabled"
+        }
+      ]
+    },
+    "Vanilla": {
+      "initial": "checked: false · events: 0 · submits: 0",
+      "afterReinit": "checked: true · events: 1 · submits: 0",
+      "silentOff": "checked: false · events: 1 · submits: 0",
+      "silentOn": "checked: true · events: 1 · submits: 0",
+      "emit": "checked: false · events: 2 · submits: 0",
+      "enter": "checked: true · events: 3 · submits: 0",
+      "space": "checked: false · events: 4 · submits: 0",
+      "dynamic": {
+        "checked": "true",
+        "role": "switch",
+        "thumbs": 1,
+        "type": "button",
+        "visuals": 1
+      }
+    },
+    "reducedMotion": {
+      "active": true,
+      "checkbox": "0s",
+      "slider": "0s",
+      "switches": [
+        {
+          "animation": "none",
+          "delay": "0s",
+          "label": "React MD",
+          "transition": "0s"
+        },
+        {
+          "animation": "none",
+          "delay": "0s",
+          "label": "React SM",
+          "transition": "0s"
+        },
+        {
+          "animation": "none",
+          "delay": "0s",
+          "label": "React disabled",
+          "transition": "0s"
+        },
+        {
+          "animation": "none",
+          "delay": "0s",
+          "label": "Vue MD",
+          "transition": "0s"
+        },
+        {
+          "animation": "none",
+          "delay": "0s",
+          "label": "Vue SM",
+          "transition": "0s"
+        },
+        {
+          "animation": "none",
+          "delay": "0s",
+          "label": "Vue disabled",
+          "transition": "0s"
+        }
+      ]
+    }
+  },
+  "starter": {
+    "saved": {
+      "output": "120%",
+      "scale": "120",
+      "scripts": [
+        "../assets/js/qoder-icons.js",
+        "../assets/js/qoder-ui.js?v=4.3",
+        "starter.js?v=4.4"
+      ],
+      "status": "Atlas Review 的设置已保存。",
+      "styles": [
+        "../assets/css/tokens.css?v=4.3",
+        "../assets/css/components.css?v=4.4",
+        "starter.css"
+      ],
+      "switches": [
+        {
+          "checked": "false",
+          "label": "autosave-title"
+        },
+        {
+          "checked": "true",
+          "label": "notifications-title"
+        },
+        {
+          "checked": "false",
+          "label": "compact-title"
+        },
+        {
+          "checked": "false",
+          "label": "policy-title"
+        }
+      ],
+      "theme": "mint-light",
+      "themeTransition": null,
+      "width": "wide",
+      "workspace": "Atlas Review"
+    },
+    "reloaded": {
+      "output": "120%",
+      "scale": "120",
+      "switches": [
+        {
+          "checked": "false",
+          "label": "autosave-title"
+        },
+        {
+          "checked": "true",
+          "label": "notifications-title"
+        },
+        {
+          "checked": "false",
+          "label": "compact-title"
+        },
+        {
+          "checked": "false",
+          "label": "policy-title"
+        }
+      ],
+      "theme": "mint-light",
+      "width": "wide",
+      "workspace": "Atlas Review"
+    }
+  },
+  "browser": {
+    "name": "Codex in-app Chromium via Cua",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+  },
+  "browserLogs": {
+    "showcase": [],
+    "verificationTab": []
+  },
+  "assertions": [
+    {
+      "check": "complete switch structure",
+      "passed": true
+    },
+    {
+      "check": "MD hover 18px",
+      "passed": true
+    },
+    {
+      "check": "SM hover 14px",
+      "passed": true
+    },
+    {
+      "check": "pointer attraction 24px",
+      "passed": true
+    },
+    {
+      "check": "reduced motion zero",
+      "passed": true
+    },
+    {
+      "check": "system high contrast",
+      "passed": true
+    },
+    {
+      "check": "React single events",
+      "passed": true
+    },
+    {
+      "check": "Vue single events",
+      "passed": true
+    },
+    {
+      "check": "controlled components excluded from native binding",
+      "passed": true
+    },
+    {
+      "check": "disabled controls unchanged",
+      "passed": true
+    },
+    {
+      "check": "native init single event",
+      "passed": true
+    },
+    {
+      "check": "native silent set",
+      "passed": true
+    },
+    {
+      "check": "dynamic switch structure",
+      "passed": true
+    },
+    {
+      "check": "slider pointer geometry",
+      "passed": true
+    },
+    {
+      "check": "slider resize is silent",
+      "passed": true
+    },
+    {
+      "check": "negative range max zero",
+      "passed": true
+    },
+    {
+      "check": "copy eight complete switches",
+      "passed": true
+    },
+    {
+      "check": "effects synchronized",
+      "passed": true
+    },
+    {
+      "check": "starter save and reload",
+      "passed": true
+    },
+    {
+      "check": "rapid themes keep latest",
+      "passed": true
+    },
+    {
+      "check": "theme API fallback",
+      "passed": true
+    },
+    {
+      "check": "responsive width and overflow",
+      "passed": true
+    },
+    {
+      "check": "no console errors",
+      "passed": true
+    },
+    {
+      "check": "SM pointer attraction and resting width",
+      "passed": true
+    }
+  ],
+  "generatedAt": "2026-10-24T03:20:45+00:00",
+  "scope": "Shared controls, framework switch components, integration starter and responsive showcase.",
+  "frameworkVersions": {
+    "react": "19.3.1",
+    "reactDom": "19.3.1",
+    "vue": "3.5.44",
+    "esbuild": "0.28.2"
+  },
+  "staticChecks": {
+    "status": "passed",
+    "localResourceReferences": 43,
+    "uniqueSvgIcons": 125,
+    "woff2Fonts": 7,
+    "h1": 1,
+    "duplicateIds": [],
+    "errors": [],
+    "scriptSyntax": [
+      "assets/js/qoder-ui.js",
+      "assets/js/showcase-catalog.js",
+      "examples/starter.js"
+    ],
+    "pythonSyntax": "tools/extract-controls.py"
+  },
+  "limits": [
+    "Source recipes are from compiled Qoder CN 0.4.8 assets.",
+    "Browser runtime verification used the bundled Chromium; Firefox and Safari runtime checks were not performed.",
+    "This verifies the shared control subset and integration examples; complete native client screen parity is outside this audit."
+  ],
+  "implementationAssets": {
+    "assets/css/tokens.css": {
+      "bytes": 47532,
+      "sha256": "8285b6bd22147630e88c1ddc22b53631a2eff6b02658156c3ab91a37c838e3c7"
+    },
+    "assets/css/components.css": {
+      "bytes": 138707,
+      "sha256": "cdd9e1a65febec41e18bcebb9b56a7995653157c50c3a6d6b16439e0c00d9064"
+    },
+    "assets/css/showcase.css": {
+      "bytes": 41394,
+      "sha256": "37851bed71b035e882cc09cd1cd7bcd7170cefcffcbf5e69525c1438f8873504"
+    },
+    "assets/css/showcase-specimens.css": {
+      "bytes": 40523,
+      "sha256": "4daca8a2608c4e808408e117d1600fde1a7af95971ac0b6717424db70cf28334"
+    },
+    "assets/js/qoder-ui.js": {
+      "bytes": 68212,
+      "sha256": "5125f682efa80b31f61e7c15de9aeb94e7152756f113e02ed6be07940896d88b"
+    },
+    "assets/js/showcase-catalog.js": {
+      "bytes": 15773,
+      "sha256": "0c2715473c48d5f1b19b712e709e0484dc1bbe5059590628eb786c900ea9fb8f"
+    },
+    "examples/starter.html": {
+      "bytes": 8776,
+      "sha256": "43e733b8d2f717a305634536c89a5189fefda325f7c5db73be799d11fc6e8b51"
+    },
+    "examples/starter.css": {
+      "bytes": 4249,
+      "sha256": "c04fdec3de22ab9460253ae745836626569bd0060d0d345f0e00fa2472fdd8c7"
+    },
+    "examples/starter.js": {
+      "bytes": 2711,
+      "sha256": "824ddf89fc1099dfcad806175c471448b1239b24eb2aaaf6741f2910b16bfe29"
+    },
+    "examples/react/QSwitch.jsx": {
+      "bytes": 1304,
+      "sha256": "c36f362082b3a19c2afb5d4f6102cc65e9a433a16a88f17c31f0d3d01462e418"
+    },
+    "examples/vue/QSwitch.vue": {
+      "bytes": 1135,
+      "sha256": "d36c32dd50728106ff2405078a00f760d312f352d6a3b53a2f8444bcf8dc30e8"
+    },
+    "index.html": {
+      "bytes": 224913,
+      "sha256": "58982b0f96c85d37c968eefe1ceddfb5570e62ca47fb25f5bf4e3d9f70e58142"
+    },
+    "tokens.json": {
+      "bytes": 48720,
+      "sha256": "c22122f25a95f9d533cc838a2e7a26b38341819dd056853471e8c9fc35b91666"
+    }
+  },
+  "artifacts": {
+    "switchReference": {
+      "path": "source-evidence/switch-reference-light.png",
+      "width": 762,
+      "height": 665,
+      "bytes": 151369,
+      "sha256": "e0e2bebe71873923be3bfa79c935ff2a8f8a7fcd1edb0874908267683e7bc00f"
+    }
+  }
+}

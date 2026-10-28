@@ -1,0 +1,298 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-10-24T04:02:55.640516+00:00",
+  "scope": "Website brand identity, original CN vector mark and new SVG exports",
+  "responsiveMethod": "Same-origin iframes containing the actual index.html at 320px light and 390px dark; no copied UI implementation.",
+  "checks": [
+    {
+      "name": "official source hash",
+      "passed": true
+    },
+    {
+      "name": "documented source hash",
+      "passed": true
+    },
+    {
+      "name": "assets/brand/qoder-mark.svg",
+      "passed": true,
+      "hashMatches": true,
+      "originalPathData": true,
+      "selfContainedVector": true
+    },
+    {
+      "name": "assets/brand/qoder-design-kit.svg",
+      "passed": true,
+      "hashMatches": true,
+      "originalPathData": true,
+      "selfContainedVector": true
+    },
+    {
+      "name": "assets/brand/qoder-design-kit-dark.svg",
+      "passed": true,
+      "hashMatches": true,
+      "originalPathData": true,
+      "selfContainedVector": true
+    },
+    {
+      "name": "assets/brand/qoder-design-kit-mono.svg",
+      "passed": true,
+      "hashMatches": true,
+      "originalPathData": true,
+      "selfContainedVector": true
+    },
+    {
+      "name": "assets/favicon.svg",
+      "passed": true,
+      "hashMatches": true,
+      "originalPathData": true,
+      "selfContainedVector": true
+    },
+    {
+      "name": "brand preview local references",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "name": "website resources and accessible brand link",
+      "passed": true
+    },
+    {
+      "name": "light/dark theme selection",
+      "passed": true
+    },
+    {
+      "name": "320px/390px responsive iframe layouts",
+      "passed": true
+    },
+    {
+      "name": "console errors",
+      "passed": true
+    }
+  ],
+  "browser": {
+    "page": {
+      "headerLabel": "Qoder Design Kit 首页",
+      "height": 678,
+      "images": [
+        {
+          "alt": "",
+          "display": "block",
+          "loaded": true,
+          "src": "assets/brand/qoder-design-kit.svg?v=1"
+        },
+        {
+          "alt": "",
+          "display": "none",
+          "loaded": true,
+          "src": "assets/brand/qoder-design-kit-dark.svg?v=1"
+        },
+        {
+          "alt": "",
+          "display": "block",
+          "loaded": true,
+          "src": "assets/brand/qoder-design-kit.svg?v=1"
+        },
+        {
+          "alt": "",
+          "display": "none",
+          "loaded": true,
+          "src": "assets/brand/qoder-design-kit-dark.svg?v=1"
+        },
+        {
+          "alt": "",
+          "display": "block",
+          "loaded": true,
+          "src": "assets/brand/qoder-design-kit.svg?v=1"
+        },
+        {
+          "alt": "",
+          "display": "none",
+          "loaded": true,
+          "src": "assets/brand/qoder-design-kit-dark.svg?v=1"
+        }
+      ],
+      "overflow": false,
+      "theme": "light",
+      "url": "http://127.0.0.1:4173/?theme=light#overview",
+      "width": 778
+    },
+    "assets": {
+      "images": [
+        {
+          "loaded": true,
+          "src": "qoder-design-kit.svg?v=1"
+        },
+        {
+          "loaded": true,
+          "src": "qoder-design-kit-dark.svg?v=1"
+        },
+        {
+          "loaded": true,
+          "src": "qoder-mark.svg?v=1"
+        },
+        {
+          "loaded": true,
+          "src": "qoder-mark.svg?v=1"
+        },
+        {
+          "loaded": true,
+          "src": "qoder-mark.svg?v=1"
+        },
+        {
+          "loaded": true,
+          "src": "../favicon.svg?v=5.1"
+        },
+        {
+          "loaded": true,
+          "src": "../favicon.svg?v=5.1"
+        },
+        {
+          "loaded": true,
+          "src": "../favicon.svg?v=5.1"
+        },
+        {
+          "loaded": true,
+          "src": "qoder-design-kit-mono.svg?v=1"
+        }
+      ],
+      "overflow": false,
+      "url": "http://127.0.0.1:4173/assets/brand/preview.html",
+      "width": 1280
+    },
+    "dark": {
+      "theme": "dark",
+      "width": 778,
+      "overflow": false,
+      "visibleLogos": [
+        {
+          "src": "assets/brand/qoder-design-kit-dark.svg?v=1",
+          "loaded": true
+        },
+        {
+          "src": "assets/brand/qoder-design-kit-dark.svg?v=1",
+          "loaded": true
+        },
+        {
+          "src": "assets/brand/qoder-design-kit-dark.svg?v=1",
+          "loaded": true
+        }
+      ]
+    },
+    "responsive": [
+      {
+        "width": 320,
+        "theme": "light",
+        "overflow": false,
+        "logo": {
+          "x": 16,
+          "y": 12,
+          "width": 120,
+          "height": 40,
+          "top": 12,
+          "right": 136,
+          "bottom": 52,
+          "left": 16
+        },
+        "image": "assets/brand/qoder-design-kit.svg?v=1",
+        "loaded": true
+      },
+      {
+        "width": 390,
+        "theme": "dark",
+        "overflow": false,
+        "logo": {
+          "x": 20,
+          "y": 12,
+          "width": 120,
+          "height": 40,
+          "top": 12,
+          "right": 140,
+          "bottom": 52,
+          "left": 20
+        },
+        "image": "assets/brand/qoder-design-kit-dark.svg?v=1",
+        "loaded": true
+      }
+    ],
+    "consoleErrors": {
+      "website": [],
+      "assetPreview": []
+    }
+  },
+  "screenshots": [
+    {
+      "file": "source-evidence/brand-preview.png",
+      "width": 1265,
+      "height": 712,
+      "sha256": "f0d25d00b95dcdfd1ce1999b98758753ab9036602c2b530302d413eb16f3f82d"
+    },
+    {
+      "file": "source-evidence/brand-page-light.png",
+      "width": 762,
+      "height": 665,
+      "sha256": "7704c4115ddea4c8c5b7b7b5e8c06f38da495dcc40d1b613e293e02ee617abcb"
+    },
+    {
+      "file": "source-evidence/brand-page-dark.png",
+      "width": 762,
+      "height": 665,
+      "sha256": "d82ba69e7a204256299682b85acf5e78d27683b21cd31576ac4b41f828290ab9"
+    },
+    {
+      "file": "source-evidence/brand-responsive.png",
+      "width": 770,
+      "height": 690,
+      "sha256": "ead8a7bd405ddebfa32838482f4308c2ab4dd494cf45b79a4a76539f6c66ed93"
+    },
+    {
+      "file": "source-evidence/brand-mobile-light.png",
+      "width": 320,
+      "height": 620,
+      "sha256": "9c7dabb3642eb9b569ad84d009c138305b97f38b68a9ed41f797b85e094ddb62"
+    },
+    {
+      "file": "source-evidence/brand-mobile-dark.png",
+      "width": 390,
+      "height": 620,
+      "sha256": "e8d30df3d84949523f23a39029131b4422f824ce33f8ebfb13d681a507d6b2ad"
+    }
+  ],
+  "files": [
+    {
+      "file": "index.html",
+      "sha256": "9099e62eadc30f538bf435d6291f9895002471b36d2e1969814ce5f6ad12d155"
+    },
+    {
+      "file": "assets/css/showcase.css",
+      "sha256": "73fbeacd0145e33ceef4e257e130906168e6551170cce03695414c24e058300d"
+    },
+    {
+      "file": "assets/brand/preview.html",
+      "sha256": "646ad4f8166da4db33bf796cd1e493fd05dfc54dec1698a931f2706bc0615220"
+    },
+    {
+      "file": "BRAND.md",
+      "sha256": "d378a0843c199b9e102678d4488235fa0815d13e7e3bbca5f389e0645f453e57"
+    },
+    {
+      "file": "SOURCE-MAPPING.md",
+      "sha256": "ac616fde98f9d550272967a22330092bc9856af7799ecfec01e6fc27e2f9ff46"
+    },
+    {
+      "file": "README.md",
+      "sha256": "47b45a1340c520b50bb939f85919eb86c6db706a0d73ef3dd64ee9897fedbc55"
+    },
+    {
+      "file": "licenses/README.md",
+      "sha256": "ad75ad0174c054a93a1f5821f03dbe88657194712a86ea7418e3af270b5e06a3"
+    },
+    {
+      "file": "tools/extract-brand.py",
+      "sha256": "fcb9f527cc19aaf3e7fcc1fa2c8911c76580735217bf648c13930b15cd0b3b15"
+    },
+    {
+      "file": "source-evidence/brand.json",
+      "sha256": "50bc3968dd7a66582b2cd1f7269aa0a4b53145d1206f7c56780eea9508c849e2"
+    }
+  ]
+}

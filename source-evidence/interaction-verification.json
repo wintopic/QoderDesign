@@ -1,0 +1,175 @@
+{
+  "verifiedDate": "2026-10-25",
+  "timezone": "Asia/Shanghai",
+  "sourceVersion": "Qoder CN 0.4.8",
+  "target": "Component interaction reliability, reusable examples and local development",
+  "browser": "Chromium 156.0.8078.4 via Playwright 1.64.1 (headless)",
+  "regression": {
+    "command": "npm test",
+    "total": 36,
+    "passed": 36,
+    "failed": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "durationMs": 45278,
+    "checks": [
+      "select links its named listbox and skips disabled or hidden options",
+      "select typeahead moves focus without committing until Enter",
+      "Space opens a select with non-button options without immediately choosing one",
+      "select cannot commit an aria-disabled option",
+      "select Tab and Shift+Tab continue from the trigger",
+      "popups close when focus leaves and opening another popup closes the first",
+      "menu keyboard skips disabled actions and dispatches checkbox selections",
+      "tabs never select disabled tabs and ignore hidden tabs",
+      "context menu works with Shift+F10, arrow keys and Escape",
+      "tooltip adds and removes its description without losing existing hints",
+      "tooltip is reachable inside a native modal and Escape dismisses it first",
+      "dragging from a dialog panel onto the backdrop does not close it",
+      "a select near the bottom of a mobile viewport stays within the viewport",
+      "command palette does not execute while confirming an IME composition",
+      "command search normalizes full-width input and matches multiple words",
+      "chart treats dynamic labels and values as text",
+      "unknown theme names fall back to light instead of inherited object keys",
+      "token refresh leaves unchanged content alone and rapid changes show the final theme",
+      "a native modal blocks background scrolling until closed",
+      "showcase and starter fit 320px in light",
+      "showcase and starter fit 390px in light",
+      "showcase and starter fit 768px in light",
+      "showcase and starter fit 1024px in light",
+      "showcase and starter fit 1440px in light",
+      "showcase and starter fit 320px in forest-dark",
+      "showcase and starter fit 390px in forest-dark",
+      "showcase and starter fit 768px in forest-dark",
+      "showcase and starter fit 1024px in forest-dark",
+      "showcase and starter fit 1440px in forest-dark",
+      "all nine theme cards and the header selector stay synchronized",
+      "mobile navigation hands focus to search and closes with Escape",
+      "component and icon filters survive reload and recover from empty results",
+      "all 22 exported component pages load their references and stay interactive",
+      "starter preferences still persist with native form controls",
+      "open select and command palette have no structural accessibility violations",
+      "direct file preview keeps local assets and interactions working"
+    ]
+  },
+  "reproducedBeforeChanges": {
+    "failingScenarios": 16,
+    "passedAfterChanges": 16
+  },
+  "coverage": {
+    "exportedComponentPages": 22,
+    "themes": 9,
+    "viewportWidths": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "layoutThemes": [
+      "light",
+      "forest-dark"
+    ],
+    "layoutPages": [
+      "index.html",
+      "examples/starter.html"
+    ],
+    "directFilePreview": true
+  },
+  "localAssets": {
+    "checkedReferences": 51,
+    "uniqueSvgIcons": 125,
+    "fonts": 7,
+    "duplicateIds": [],
+    "missingReferences": []
+  },
+  "previewServer": {
+    "entry": "tools/serve.mjs",
+    "bind": "127.0.0.1",
+    "checks": [
+      {
+        "url": "/",
+        "method": "GET",
+        "status": 200
+      },
+      {
+        "url": "/assets/css/components.css?v=5.1",
+        "method": "HEAD",
+        "status": 200
+      },
+      {
+        "url": "/missing-file.html",
+        "method": "GET",
+        "status": 404
+      },
+      {
+        "url": "/..%5cREADME.md",
+        "method": "GET",
+        "status": 403
+      },
+      {
+        "url": "/%ZZ",
+        "method": "GET",
+        "status": 400
+      },
+      {
+        "url": "/",
+        "method": "POST",
+        "status": 405
+      }
+    ],
+    "concurrentSuccessfulAssetRequests": 24
+  },
+  "visualVerification": {
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "theme": "light",
+      "screenshot": "interaction-menus-desktop.png",
+      "menuBounds": {
+        "x": 1015.796875,
+        "y": 288.359375,
+        "width": 282.703125,
+        "height": 138
+      }
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "theme": "forest-dark",
+      "screenshot": "interaction-context-mobile.png",
+      "menuBounds": {
+        "x": 56,
+        "y": 430,
+        "width": 200,
+        "height": 147
+      }
+    },
+    "scriptOrRequestErrors": []
+  },
+  "accessibility": {
+    "scope": "Whole showcase, initial light theme, 1440px desktop; axe-core WCAG 2 A/AA and 2.1 AA tags",
+    "remainingFindings": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 75
+      }
+    ],
+    "structuralChecks": "Open select and command palette pass automated structural checks; keyboard and focus behavior are exercised separately.",
+    "limitation": "The source palette is preserved. Its 75 color-contrast node findings remain; this is not a site-wide WCAG conformance claim."
+  },
+  "fileSha256": {
+    "assets/js/qoder-ui.js": "d7f95e23f8d6acb3bb34f2b5f9d4b835cda2984f3f94c71a9557f6735f725418",
+    "assets/js/showcase.js": "300dd17432f552f7c4cb5ed621435a835cf6ba8f711da4f76df60ea47b857be1",
+    "assets/js/showcase-catalog.js": "2a99807491637df52679e26dcae069510d83524e6362867fdc633fd20c8d0693",
+    "assets/css/components.css": "7c89b4ac15578f6bee54ed28f7fceb8a573cc7f63aaae888cc92da54a41b1c6b",
+    "index.html": "6d710b4d813e0ef9afcd9c3c781d75d684a35002b0c6e0dec03f164427aa6f1f",
+    "examples/starter.html": "268b87c37a7bd304d2d47343beea049aee9470cf7004dd6ba2711cf5f07912f8",
+    "tools/serve.mjs": "c6a57ffa8669b0ea517c0e11851c106ea919f7b7a9da521f74694356787b33f5",
+    "tests/interactions.spec.mjs": "98be6447ed19c40980fae3576b73d42c15d3e33a20e4aeba363e6e385669914b",
+    "tests/showcase.spec.mjs": "2a93fc6a794c2898145a2d27b1edf34facd14713d739175fa7f864012daa9305",
+    "playwright.config.mjs": "3fad9a3ff409369c50258fad88e894ff0e1cc7bbdeaab729599a54b8f90962cd",
+    "package.json": "3b13246a5aae3bac7284408af12f942f7acb875578b0ce66d092597e277cd097",
+    "package-lock.json": "7f01a7e859fcb0e56031949868be87c454986e69d3f24b5110139981a4b85c3b"
+  }
+}

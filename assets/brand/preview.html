@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Logo 资产 · Qoder Design Kit</title>
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg?v=5.1">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f4f5f1; color: #191b18; font: 14px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
+    a { color: inherit; text-decoration: none; }
+    a:hover { text-decoration: underline; text-underline-offset: 4px; }
+    a:focus-visible { outline: 2px solid #217d3b; outline-offset: 5px; }
+    main { width: min(1040px, calc(100% - 48px)); margin: 0 auto; padding: 28px 0; }
+    nav { display: flex; align-items: center; justify-content: space-between; gap: 20px; color: #63695f; font-size: 12px; }
+    .status { display: inline-flex; align-items: center; gap: 8px; }
+    .status::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #2adb5c; }
+    header { margin: 36px 0 24px; }
+    .eyebrow { margin: 0 0 7px; font-size: 10px; letter-spacing: .16em; color: #63695f; }
+    h1 { margin: 0; font-size: 32px; font-weight: 500; line-height: 1.35; letter-spacing: -.04em; }
+    header p:last-child { margin: 12px 0 0; max-width: 620px; color: #63695f; font-size: 13px; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .card { min-width: 0; padding: 22px 24px; border: 1px solid #dde1d7; border-radius: 16px; background: #fff; }
+    .dark { color: #f2f4f0; background: #191b18; border-color: #191b18; }
+    .caption { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    h2 { margin: 0; font-size: 12px; font-weight: 500; }
+    .caption span { font-size: 10px; letter-spacing: .08em; color: #7d8377; }
+    .dark .caption span { color: #a4ab9c; }
+    .logo-stage { display: grid; place-items: center; min-height: 148px; }
+    .logo-stage img { width: min(288px, 100%); height: auto; }
+    .download { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 12px; border-top: 1px solid #e7eae2; font-size: 11px; }
+    .download span { color: #7d8377; }
+    .dark .download { border-color: #383d32; }
+    .dark .download span { color: #a4ab9c; }
+    .detail { margin-top: 16px; display: grid; grid-template-columns: 1fr 1fr 1fr; padding: 22px 24px; border: 1px solid #dde1d7; border-radius: 16px; background: #fff; }
+    .detail article { min-width: 0; }
+    .detail article + article { border-left: 1px solid #e7eae2; padding-left: 24px; }
+    .samples { display: flex; gap: 18px; align-items: center; min-height: 96px; }
+    .sample { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 8px; }
+    .sample span { color: #7d8377; font: 10px/1.4 ui-monospace, monospace; }
+    .mono { width: 144px; height: 48px; }
+    .resource { font-size: 11px; color: #63695f; }
+    footer { display: flex; justify-content: space-between; gap: 24px; margin-top: 20px; color: #7d8377; font-size: 11px; }
+    footer p { margin: 0; }
+    @media (max-width: 720px) {
+      main { width: calc(100% - 32px); padding-top: 22px; }
+      header { margin-top: 30px; }
+      h1 { font-size: 28px; }
+      .grid { grid-template-columns: 1fr; }
+      .detail { grid-template-columns: 1fr; gap: 22px; }
+      .detail article + article { border-left: 0; border-top: 1px solid #e7eae2; padding: 22px 0 0; }
+      footer { flex-direction: column; gap: 8px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <nav aria-label="品牌资源导航">
+    <a href="../../index.html#overview">← 返回展示网站</a>
+    <span class="status">QODER CN 0.4.8</span>
+  </nav>
+  <header>
+    <p class="eyebrow">QODER DESIGN KIT · BRAND ASSETS</p>
+    <h1>一个标志，多种界面。</h1>
+    <p>官方 CN 折面标志，配合重新排版的套件字标。保留轮廓与原色，以统一比例适配网页、暗色界面和浏览器标签。</p>
+  </header>
+  <section class="grid" aria-label="亮暗背景的 Logo">
+    <article class="card">
+      <div class="caption"><h2>亮色界面</h2><span>LIGHT</span></div>
+      <div class="logo-stage"><img src="qoder-design-kit.svg?v=1" width="288" height="96" alt="Qoder Design Kit 亮色版"></div>
+      <div class="download"><a href="qoder-design-kit.svg?v=1" download>下载 SVG ↗</a><span>透明底 · 144 × 48</span></div>
+    </article>
+    <article class="card dark">
+      <div class="caption"><h2>暗色界面</h2><span>DARK</span></div>
+      <div class="logo-stage"><img src="qoder-design-kit-dark.svg?v=1" width="288" height="96" alt="Qoder Design Kit 暗色版"></div>
+      <div class="download"><a href="qoder-design-kit-dark.svg?v=1" download>下载 SVG ↗</a><span>透明底 · 144 × 48</span></div>
+    </article>
+  </section>
+  <section class="detail" aria-label="小尺寸和单色版本">
+    <article>
+      <h2>独立标志</h2>
+      <div class="samples">
+        <div class="sample"><img src="qoder-mark.svg?v=1" width="48" height="48" alt="Qoder CN 标志"><span>48</span></div>
+        <div class="sample"><img src="qoder-mark.svg?v=1" width="32" height="32" alt=""><span>32</span></div>
+        <div class="sample"><img src="qoder-mark.svg?v=1" width="24" height="24" alt=""><span>24</span></div>
+      </div>
+      <a class="resource" href="qoder-mark.svg?v=1" download>下载标志 SVG ↗</a>
+    </article>
+    <article>
+      <h2>浏览器图标</h2>
+      <div class="samples">
+        <div class="sample"><img src="../favicon.svg?v=5.1" width="48" height="48" alt="Qoder Design Kit 浏览器图标"><span>48</span></div>
+        <div class="sample"><img src="../favicon.svg?v=5.1" width="32" height="32" alt=""><span>32</span></div>
+        <div class="sample"><img src="../favicon.svg?v=5.1" width="16" height="16" alt=""><span>16</span></div>
+      </div>
+      <a class="resource" href="../favicon.svg?v=5.1" download>下载 favicon SVG ↗</a>
+    </article>
+    <article>
+      <h2>单色字标</h2>
+      <div class="samples"><img class="mono" src="qoder-design-kit-mono.svg?v=1" width="144" height="48" alt="Qoder Design Kit 单色版"></div>
+      <a class="resource" href="qoder-design-kit-mono.svg?v=1" download>下载单色 SVG ↗</a>
+    </article>
+  </section>
+  <footer>
+    <p>非官方设计参考 · Qoder 标志权利归其权利人所有</p>
+    <a href="../../BRAND.md">使用规范与源码出处 ↗</a>
+  </footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,530 @@
+{
+  "verifiedDate": "2026-10-25",
+  "timezone": "Asia/Shanghai",
+  "target": "Qoder Design Kit showcase: search, sharing and asset reuse",
+  "sourceVersion": "Qoder CN 0.4.8",
+  "browser": "Chromium via Playwright, headless",
+  "passedChecks": 90,
+  "checks": [
+    "Chinese icon search returns folder variants",
+    "Full-width icon search is normalized",
+    "Mixed-language multiword search returns arrow-right",
+    "Style filter provides an empty state",
+    "Icon empty-state recovery restores all 125 icons",
+    "Filled style contains 15 icons",
+    "Icon query and style survive refresh",
+    "Icon opens an accessible native modal",
+    "Filled icon exports a standalone SVG with correct paint",
+    "Icon name copy writes the selected name",
+    "Icon SVG copy writes the displayed standalone source",
+    "Icon HTML copy preserves the filled class and symbol",
+    "SVG download contains the selected source and MIT credit",
+    "Icon Escape returns focus to its tile",
+    "Component query and category are reflected in the URL",
+    "Component filters survive refresh",
+    "Code modes support keyboard tabs",
+    "Complete page includes local styles, scripts and theme",
+    "Complete-page copy writes the complete source",
+    "HTML download is the displayed full page",
+    "Code Escape returns focus to the native code button",
+    "Command navigation creates one history entry",
+    "Back navigation restores previous search and category",
+    "Modal clipboard fallback focuses and selects inside the active dialog",
+    "Share link preserves theme and removes conflicting component filters",
+    "Opening the share link applies the theme and reveals the target",
+    "Complete example reflects the current theme",
+    "component-buttons full page loads with valid references and selected theme",
+    "component-icon-buttons full page loads with valid references and selected theme",
+    "component-inputs full page loads with valid references and selected theme",
+    "component-menus full page loads with valid references and selected theme",
+    "component-dialog full page loads with valid references and selected theme",
+    "Exported dialog opens as a native modal",
+    "component-tabs full page loads with valid references and selected theme",
+    "Exported tabs reveal the matching panel",
+    "component-checkbox full page loads with valid references and selected theme",
+    "component-alerts full page loads with valid references and selected theme",
+    "component-switch full page loads with valid references and selected theme",
+    "Exported switch remains interactive",
+    "component-badges full page loads with valid references and selected theme",
+    "component-tooltip-toast full page loads with valid references and selected theme",
+    "component-loading full page loads with valid references and selected theme",
+    "component-agent-activity full page loads with valid references and selected theme",
+    "component-composer full page loads with valid references and selected theme",
+    "component-command-palette full page loads with valid references and selected theme",
+    "component-hover-context full page loads with valid references and selected theme",
+    "component-file-tree full page loads with valid references and selected theme",
+    "Exported file tree expands and collapses",
+    "component-radio-slider full page loads with valid references and selected theme",
+    "component-terminal full page loads with valid references and selected theme",
+    "component-chart full page loads with valid references and selected theme",
+    "component-empty-state full page loads with valid references and selected theme",
+    "component-markdown full page loads with valid references and selected theme",
+    "Page has no horizontal overflow at 320px in light",
+    "Code dialog fits 320px in light",
+    "Icon dialog fits 320px in light",
+    "Page has no horizontal overflow at 320px in forest-dark",
+    "Code dialog fits 320px in forest-dark",
+    "Icon dialog fits 320px in forest-dark",
+    "Page has no horizontal overflow at 390px in light",
+    "Code dialog fits 390px in light",
+    "Icon dialog fits 390px in light",
+    "Page has no horizontal overflow at 390px in forest-dark",
+    "Code dialog fits 390px in forest-dark",
+    "Icon dialog fits 390px in forest-dark",
+    "Page has no horizontal overflow at 768px in light",
+    "Code dialog fits 768px in light",
+    "Icon dialog fits 768px in light",
+    "Page has no horizontal overflow at 768px in forest-dark",
+    "Code dialog fits 768px in forest-dark",
+    "Icon dialog fits 768px in forest-dark",
+    "Page has no horizontal overflow at 1024px in light",
+    "Code dialog fits 1024px in light",
+    "Icon dialog fits 1024px in light",
+    "Page has no horizontal overflow at 1024px in forest-dark",
+    "Code dialog fits 1024px in forest-dark",
+    "Icon dialog fits 1024px in forest-dark",
+    "Page has no horizontal overflow at 1440px in light",
+    "Code dialog fits 1440px in light",
+    "Code dialog accessibility audit has no definite violations in light",
+    "Icon dialog fits 1440px in light",
+    "Icon dialog accessibility audit has no definite violations in light",
+    "Page has no horizontal overflow at 1440px in forest-dark",
+    "Code dialog fits 1440px in forest-dark",
+    "Code dialog accessibility audit has no definite violations in forest-dark",
+    "Icon dialog fits 1440px in forest-dark",
+    "Icon dialog accessibility audit has no definite violations in forest-dark",
+    "Direct file preview exposes complete-page code",
+    "Direct file preview supports Chinese icon search",
+    "No runtime errors or failed local resources"
+  ],
+  "standaloneExamples": [
+    {
+      "id": "component-buttons",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-icon-buttons",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-inputs",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-menus",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-dialog",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-tabs",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-checkbox",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-alerts",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-switch",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-badges",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-tooltip-toast",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-loading",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-agent-activity",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-composer",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-command-palette",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-hover-context",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-file-tree",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-radio-slider",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-terminal",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-chart",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-empty-state",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    },
+    {
+      "id": "component-markdown",
+      "theme": "mint-dark",
+      "duplicateIds": 0,
+      "missingReferences": [],
+      "width": 900,
+      "viewport": 900
+    }
+  ],
+  "viewportChecks": [
+    {
+      "theme": "light",
+      "width": 320,
+      "clientWidth": 320,
+      "scrollWidth": 305,
+      "codeRect": {
+        "x": 16,
+        "y": 72.875,
+        "width": 273,
+        "height": 698.234375
+      },
+      "iconRect": {
+        "x": 22.824996948242188,
+        "y": 194.95001220703125,
+        "width": 259.34999084472656,
+        "height": 469.29998779296875
+      }
+    },
+    {
+      "theme": "forest-dark",
+      "width": 320,
+      "clientWidth": 320,
+      "scrollWidth": 305,
+      "codeRect": {
+        "x": 16,
+        "y": 72.875,
+        "width": 273,
+        "height": 698.234375
+      },
+      "iconRect": {
+        "x": 22.824996948242188,
+        "y": 194.95001220703125,
+        "width": 259.34999084472656,
+        "height": 469.29998779296875
+      }
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 375,
+      "codeRect": {
+        "x": 16,
+        "y": 72.875,
+        "width": 343,
+        "height": 698.234375
+      },
+      "iconRect": {
+        "x": 24.574996948242188,
+        "y": 205.40000915527344,
+        "width": 325.84999084472656,
+        "height": 448.3999786376953
+      }
+    },
+    {
+      "theme": "forest-dark",
+      "width": 390,
+      "clientWidth": 390,
+      "scrollWidth": 375,
+      "codeRect": {
+        "x": 16,
+        "y": 72.875,
+        "width": 343,
+        "height": 698.234375
+      },
+      "iconRect": {
+        "x": 24.574996948242188,
+        "y": 205.40000915527344,
+        "width": 325.84999084472656,
+        "height": 448.3999786376953
+      }
+    },
+    {
+      "theme": "light",
+      "width": 768,
+      "clientWidth": 768,
+      "scrollWidth": 753,
+      "codeRect": {
+        "x": 16,
+        "y": 112,
+        "width": 721,
+        "height": 776
+      },
+      "iconRect": {
+        "x": 53.5,
+        "y": 281.5,
+        "width": 646,
+        "height": 452.199951171875
+      }
+    },
+    {
+      "theme": "forest-dark",
+      "width": 768,
+      "clientWidth": 768,
+      "scrollWidth": 753,
+      "codeRect": {
+        "x": 16,
+        "y": 112,
+        "width": 721,
+        "height": 776
+      },
+      "iconRect": {
+        "x": 53.5,
+        "y": 281.5,
+        "width": 646,
+        "height": 452.199951171875
+      }
+    },
+    {
+      "theme": "light",
+      "width": 1024,
+      "clientWidth": 1024,
+      "scrollWidth": 1009,
+      "codeRect": {
+        "x": 64.5,
+        "y": 112,
+        "width": 880,
+        "height": 776
+      },
+      "iconRect": {
+        "x": 181.5,
+        "y": 281.5,
+        "width": 646,
+        "height": 452.199951171875
+      }
+    },
+    {
+      "theme": "forest-dark",
+      "width": 1024,
+      "clientWidth": 1024,
+      "scrollWidth": 1009,
+      "codeRect": {
+        "x": 64.5,
+        "y": 112,
+        "width": 880,
+        "height": 776
+      },
+      "iconRect": {
+        "x": 181.5,
+        "y": 281.5,
+        "width": 646,
+        "height": 452.199951171875
+      }
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1425,
+      "codeRect": {
+        "x": 272.5,
+        "y": 112,
+        "width": 880,
+        "height": 776
+      },
+      "iconRect": {
+        "x": 389.5,
+        "y": 281.5,
+        "width": 646,
+        "height": 452.199951171875
+      }
+    },
+    {
+      "theme": "forest-dark",
+      "width": 1440,
+      "clientWidth": 1440,
+      "scrollWidth": 1425,
+      "codeRect": {
+        "x": 272.5,
+        "y": 112,
+        "width": 880,
+        "height": 776
+      },
+      "iconRect": {
+        "x": 389.5,
+        "y": 281.5,
+        "width": 646,
+        "height": 452.199951171875
+      }
+    }
+  ],
+  "clipboardFallback": {
+    "textareaIsFocused": true,
+    "isInsideDialog": true,
+    "nativeResult": true
+  },
+  "runtimeErrors": [],
+  "failedResources": [],
+  "accessibility": [
+    {
+      "target": "code-dialog",
+      "theme": "light",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "target": "icon-dialog",
+      "theme": "light",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "target": "code-dialog",
+      "theme": "forest-dark",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "target": "icon-dialog",
+      "theme": "forest-dark",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "staticChecks": {
+    "localResourceReferences": 51,
+    "svgIcons": 125,
+    "fonts": 7,
+    "duplicateIds": 0,
+    "scriptSyntax": "passed"
+  },
+  "screenshots": [
+    "reuse-code-mobile.png",
+    "reuse-icon-desktop.png"
+  ],
+  "sourceFiles": [
+    {
+      "path": "index.html",
+      "sha256": "66d243a94c946f920ed07d2c03d1ea2ece3fbe2219638ef6ade72c996e37ca1c"
+    },
+    {
+      "path": "assets/css/showcase.css",
+      "sha256": "b7b2274048f12972e1ed5977eced637d62ce09f6a52be6a95bd3c82f08cdb531"
+    },
+    {
+      "path": "assets/js/showcase.js",
+      "sha256": "6f4c410f8c832a8e18f2ed537c2140ba5cdce961b13bc32029d91949625a4597"
+    },
+    {
+      "path": "assets/js/showcase-catalog.js",
+      "sha256": "770528fab7929be65f709ac582caedbc4de33d4806d4e2c18c8cf63cf1124356"
+    },
+    {
+      "path": "README.md",
+      "sha256": "0d6903ae233e09c43c2174bf691bd2765ee012e3a87d2913b70df66300b701d1"
+    }
+  ]
+}
